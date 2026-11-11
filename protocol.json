@@ -1,0 +1,50 @@
+{
+  "version": "1.0",
+  "created_utc": "2026-11-11T12:28:46.147087+00:00",
+  "status": "frozen before label inspection and model fitting",
+  "question": "Can selective measurement and lightweight adaptation reduce label use at the same future-wafer regression error?",
+  "data": "PHM 2016 CMP, public GitHub mirror linked to PHM description; mirror integrity hashes, not authenticated against original archive",
+  "unit": "WAFER_ID and STAGE; all rows of an episode aggregated before splitting; wafer identities must not cross train/dev/test",
+  "split": "Chronological wafer groups: earliest 60 percent training, next 20 percent development, last 20 percent locked test. Timestamp ordering and overlapping identities must be audited before fitting.",
+  "task": "Retrospective batch active metrology replay. In each future episode an initial candidate pool is observed, labels revealed only when selected; evaluate on subsequent, disjoint wafer groups. No causal recipe claims.",
+  "budgets": [
+    0,
+    2,
+    4,
+    8,
+    16,
+    32
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "baselines": [
+    "frozen predictor",
+    "random measurement + mean residual offset",
+    "random measurement + ridge residual",
+    "random measurement + GP residual",
+    "GP uncertainty measurement + GP residual"
+  ],
+  "candidate": "REFLEX: target-pool integrated posterior variance reduction + residual GP adaptation, optionally learned feature map selected on development only. This first implementation is not a novel foundation model or full GRAPE replication.",
+  "primary": "Future-wafer RMSE versus label budget, macro averaged over non-overlapping time blocks; paired block bootstrap intervals. Compute label savings only at a common threshold fixed from development.",
+  "secondary": [
+    "MAE",
+    "90th percentile absolute error",
+    "wall time",
+    "local model inference p50 and p95",
+    "model artifact bytes"
+  ],
+  "success_gate": "At least 30 percent fewer labels than best adaptive baseline at a development-fixed common RMSE threshold, without higher tail error. Report failure if unsupported.",
+  "no_claims": [
+    "No confirmed maintenance-event labels",
+    "No manufacturing release or safety certification",
+    "No production yield or ROI proof",
+    "No defect pass/fail metric without real specification limits",
+    "No test tuning; any later changes need a separately labeled exploratory run"
+  ],
+  "timestamp_note": "Creation timestamp corrected to filesystem birthtime; experimental criteria unchanged."
+}

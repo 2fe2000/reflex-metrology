@@ -1,0 +1,43 @@
+{
+  "version": "2.0",
+  "created_utc": "2026-11-11T12:33:37.525462+00:00",
+  "motivation": "CMP v1 failed. Independently evaluate selective streaming adaptation on GRAPE released bundles.",
+  "source_commit": "cce2d27a092abd9e397d7739e4beb6dfe0ae145e",
+  "splits": "Official train used for base fitting. Official valid+test are development. Official unseen reserved for final evaluation once. Dataset 1 and 2 both reported, no cherry picking.",
+  "features": "Preserve exported column order for all splits. Do not apply the upstream runner's different unseen feature permutation. This is a controlled adaptation study, not a reproduction of published scores. Raw feature semantics and wafer identifiers are unavailable.",
+  "prediction": "Prequential: predict sample before optionally obtaining its label. Each label request is selected using current/past features and past queried labels only. Zero feedback delay initially; report as limitation.",
+  "methods": [
+    "frozen ridge",
+    "upstream GRAPE model with 100 percent labels",
+    "upstream GRAPE with uniform sparse labels",
+    "Bayesian residual adapter with uniform sparse labels",
+    "same Bayesian adapter with random sparse labels",
+    "REFLEX same adapter with causal uncertainty-based requests"
+  ],
+  "budgets": [
+    0.1,
+    0.2,
+    0.4,
+    1.0
+  ],
+  "seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "candidate": "Bayesian recursive residual model with per-context offset, process-noise covariance inflation and bounded updates. This is a lightweight trained model, not a foundation model; novelty is unproven.",
+  "selection": "Every 50-sample block has fixed label quota. Current posterior variance compared with past-only variance quantile; quota enforced without future features or labels.",
+  "development_selection": "Choose residual feature count and process noise on pooled uniform-sampling development error, giving all selection strategies the same adapter. Base ridge alpha is the upstream default. All settings fixed before unseen evaluation.",
+  "success": "Primary: at 20 percent labels, REFLEX RMSE <=1.02 times full-label GRAPE and p90 absolute error <=1.05 times full-label GRAPE, on each dataset. Separately require evidence of advantage over same-budget baselines to claim proprietary selection benefit.",
+  "statistics": "Paired 50-sample block bootstrap; seeds are repetitions, not independent production runs. Report all methods and failed gates.",
+  "limitations": [
+    "Anonymized exported features, no raw sensor validation",
+    "No plant release criterion",
+    "No maintenance event identification",
+    "Original per-feature export alignment not independently verified",
+    "No real equipment or production ROI validation"
+  ],
+  "timestamp_note": "Creation timestamp corrected to filesystem birthtime; experimental criteria unchanged."
+}

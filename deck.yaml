@@ -1,0 +1,93 @@
+theme:
+  style: doublezero
+  accent: "2563EB"
+footer: "REFLEX · Research prototype · c0mpiled Taipei · 11 Nov 2026"
+slides:
+  - layout: title
+    kicker: "ADAPTIVE METROLOGY"
+    title: "Measure the change."
+    subtitle: "REFLEX\nA small local model with event-triggered measurement."
+    footer: "Public-data prototype · Exploratory results · DoubleZero"
+  - layout: two_col
+    kicker: "THE INDUSTRIAL WEDGE"
+    title: "A changed process needs new evidence."
+    columns:
+      - heading: "First customer hypothesis"
+        bullets:
+          - "CMP process-development and consumables teams"
+          - "Repeated calibration after equipment or material changes"
+          - "Budget: metrology and engineering time"
+      - heading: "The narrow question"
+        bullets:
+          - "Which samples should be measured next?"
+          - "Can a local model adapt with fewer labels?"
+          - "Production release remains a separate decision"
+  - layout: steps
+    kicker: "WORKING PROTOTYPE"
+    title: "Predict. Probe. Adapt."
+    steps:
+      - title: "Predict"
+        desc: "Execute the trained model on observed features."
+      - title: "Probe"
+        desc: "Request a measurement using past feedback."
+      - title: "Adapt"
+        desc: "Update residual state after the label arrives."
+    note: "GRAPE base model + event-triggered schedule. Actual local inference; public recorded data."
+  - layout: compare
+    kicker: "EXPLORATORY RESULT · DATASET 1"
+    title: "Same 88 measurements. Lower error."
+    columns: ["Metric", "Uniform GRAPE", "REFLEX schedule", "Difference"]
+    rows:
+      - metric: "Measurements / 542 samples"
+        before: "88"
+        after: "88"
+        effect: "Same count"
+      - metric: "RMSE"
+        before: "0.286"
+        after: "0.219"
+        effect: "23.4% lower"
+      - metric: "P90 absolute error"
+        before: "0.393"
+        after: "0.336"
+        effect: "14.6% lower"
+    note: "Post-holdout exploration. Full-label GRAPE achieves 0.209 RMSE with 542 measurements."
+  - layout: two_col
+    kicker: "WHAT THE EXPERIMENT DOES NOT PROVE"
+    title: "The original success gate was not met."
+    columns:
+      - heading: "Dataset 2"
+        bullets:
+          - "Same 342 measurements across both schedules"
+          - "0.841 vs 0.849 RMSE: 1.0% improvement"
+          - "95% block-bootstrap interval includes zero"
+      - heading: "Boundaries"
+        bullets:
+          - "CMP v1 and locked v2 candidates failed"
+          - "Event-triggered revision is exploratory"
+          - "Five-sample feedback delay removes Dataset 1 advantage"
+  - layout: stat
+    kicker: "LOCAL DEPLOYMENT"
+    title: "Small enough to live beside the equipment."
+    stats:
+      - value: "3.4 KB"
+        label: "Dataset 1 model artifact"
+      - value: "30.3 KB"
+        label: "Dataset 2 model artifact"
+      - value: "NumPy"
+        label: "Portable runtime; no cloud call"
+    subtitle: "Weights, scaler and schedule only. Raw sensor feature extraction is excluded."
+  - layout: cards
+    kicker: "BUSINESS HYPOTHESES · NOT VALIDATED PRICES"
+    title: "Sell a reusable model, prove the savings."
+    cards:
+      - heading: "Paid validation"
+        body: "KRW 5–10 million\nOne equipment family, one measured quality target."
+      - heading: "Integration"
+        body: "KRW 20–50 million\nLocal runtime and existing validation workflow."
+      - heading: "Repeat deployment"
+        body: "Equipment/OEM licenses\nPrice against verified customer value."
+    note: "Defensibility hypothesis: permitted change-event data, reusable adapters and validated failure boundaries."
+  - layout: closing
+    title: "The next proof is a fresh process."
+    subtitle: "Seeking a CMP data-validation partner.\nDelay-aware adaptation · fresh holdout · measured engineering savings."
+    contact: "Baseline: github.com/cheonwoolee/GRAPE\nPaper: arxiv.org/abs/2611.00806"

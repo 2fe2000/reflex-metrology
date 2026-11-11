@@ -1,0 +1,79 @@
+{
+  "length": 0.5,
+  "noise": 1.0,
+  "base_model": "hist_gradient_boosting",
+  "threshold_rmse": 20.310352366202558,
+  "threshold_source": "best adaptive baseline at 16 labels on development",
+  "base_scores": {
+    "extra_trees": {
+      "rmse": 196.0632061001485,
+      "train_seconds": 0.36595562500042433
+    },
+    "hist_gradient_boosting": {
+      "rmse": 45.80661703438418,
+      "train_seconds": 0.1816646249990299
+    }
+  },
+  "grid": [
+    {
+      "length": 0.5,
+      "noise": 0.05,
+      "score": 23.097715342810513
+    },
+    {
+      "length": 0.5,
+      "noise": 0.2,
+      "score": 22.209996215858464
+    },
+    {
+      "length": 0.5,
+      "noise": 1.0,
+      "score": 20.012778183085956
+    },
+    {
+      "length": 1.0,
+      "noise": 0.05,
+      "score": 24.54217675113871
+    },
+    {
+      "length": 1.0,
+      "noise": 0.2,
+      "score": 22.941422691457845
+    },
+    {
+      "length": 1.0,
+      "noise": 1.0,
+      "score": 20.38201092833512
+    },
+    {
+      "length": 2.0,
+      "noise": 0.05,
+      "score": 24.776263872900774
+    },
+    {
+      "length": 2.0,
+      "noise": 0.2,
+      "score": 24.28913709045105
+    },
+    {
+      "length": 2.0,
+      "noise": 1.0,
+      "score": 23.306647695281
+    },
+    {
+      "length": 4.0,
+      "noise": 0.05,
+      "score": 24.857015188919497
+    },
+    {
+      "length": 4.0,
+      "noise": 0.2,
+      "score": 26.558216080730908
+    },
+    {
+      "length": 4.0,
+      "noise": 1.0,
+      "score": 26.176913209473557
+    }
+  ]
+}

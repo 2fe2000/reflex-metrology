@@ -1,0 +1,7 @@
+{
+  "status": "failed",
+  "frozen_rmse": 12.98585,
+  "reflex_8_rmse": 14.410081,
+  "reason": "Fixed predictor already reaches development threshold without labels; no label-savings claim possible. Adaptive methods worsen mean error. No true maintenance event labels.",
+  "preserve": "All v1 metrics and config remain unchanged. Further experiments use a new dataset and separately frozen protocol."
+}

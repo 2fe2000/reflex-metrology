@@ -1,0 +1,29 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Pretendard,28,&H00FFFFFF,&H00FFFFFF,&H0017202B,&H0017202B,0,0,0,0,100,100,0,0,1,0,0,2,80,80,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.83,Default,,0,0,0,,When manufacturing conditions change, yesterday's model can stop being reliable.
+Dialogue: 0,0:00:06.81,0:00:08.85,Default,,0,0,0,,Measuring every sample is expensive.
+Dialogue: 0,0:00:10.83,0:00:16.03,Default,,0,0,0,,REFLEX explores a different question: when should a small local model ask for a new measurement?
+Dialogue: 0,0:00:18.00,0:00:21.69,Default,,0,0,0,,This is real local inference on public semiconductor research data.
+Dialogue: 0,0:00:23.16,0:00:25.62,Default,,0,0,0,,Each prediction happens before its measurement.
+Dialogue: 0,0:00:27.08,0:00:31.59,Default,,0,0,0,,When a measured result surprises the model, REFLEX shortens the sampling interval.
+Dialogue: 0,0:00:33.06,0:00:36.20,Default,,0,0,0,,As the process stabilizes, it measures less often.
+Dialogue: 0,0:00:37.66,0:00:40.53,Default,,0,0,0,,The model updates locally, with no cloud calls.
+Dialogue: 0,0:00:42.00,0:00:46.40,Default,,0,0,0,,Here, eighty-eight measurements cover five hundred and forty-two recorded samples.
+Dialogue: 0,0:00:47.36,0:00:53.04,Default,,0,0,0,,We compare against the published GRAPE model at the same measurement count, and against measuring every\Nsample.
+Dialogue: 0,0:00:54.00,0:00:55.90,Default,,0,0,0,,Our first two experiments failed.
+Dialogue: 0,0:00:56.69,0:01:00.15,Default,,0,0,0,,The evidence view keeps those failures and both datasets visible.
+Dialogue: 0,0:01:00.94,0:01:05.21,Default,,0,0,0,,The current prototype reuses GRAPE, with an event-triggered measurement schedule.
+Dialogue: 0,0:01:06.00,0:01:13.07,Default,,0,0,0,,On dataset one, the exploratory schedule reduced error by twenty-three point four percent, at the same\Nmeasurement budget.
+Dialogue: 0,0:01:15.00,0:01:17.25,Default,,0,0,0,,Dataset two showed no clear advantage.
+Dialogue: 0,0:01:17.94,0:01:21.30,Default,,0,0,0,,Delayed feedback also removed the first dataset's advantage.
+Dialogue: 0,0:01:22.00,0:01:28.14,Default,,0,0,0,,Our next step is delay-aware adaptation, a fresh holdout, and a CMP data-validation partner.

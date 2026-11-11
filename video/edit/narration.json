@@ -1,0 +1,9 @@
+[
+ {"start":0,"duration":18,"name":"opening","text":"When manufacturing conditions change, yesterday's model can stop being reliable. Measuring every sample is expensive. REFLEX explores a different question: when should a small local model ask for a new measurement?"},
+ {"start":18,"duration":24,"name":"live","text":"This is real local inference on public semiconductor research data. Each prediction happens before its measurement. When a measured result surprises the model, REFLEX shortens the sampling interval. As the process stabilizes, it measures less often. The model updates locally, with no cloud calls."},
+ {"start":42,"duration":12,"name":"evidence_ui","text":"Here, eighty-eight measurements cover five hundred and forty-two recorded samples. We compare against the published GRAPE model at the same measurement count, and against measuring every sample."},
+ {"start":54,"duration":12,"name":"method_ui","text":"Our first two experiments failed. The evidence view keeps those failures and both datasets visible. The current prototype reuses GRAPE, with an event-triggered measurement schedule."},
+ {"start":66,"duration":9,"name":"result_one","text":"On dataset one, the exploratory schedule reduced error by twenty-three point four percent, at the same measurement budget."},
+ {"start":75,"duration":7,"name":"result_two","text":"Dataset two showed no clear advantage. Delayed feedback also removed the first dataset's advantage."},
+ {"start":82,"duration":8,"name":"closing","text":"Our next step is delay-aware adaptation, a fresh holdout, and a CMP data-validation partner."}
+]

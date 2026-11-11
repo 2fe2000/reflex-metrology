@@ -1,0 +1,87 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.83161,
+    "text": "When manufacturing conditions change, yesterday's model can stop being reliable."
+  },
+  {
+    "start": 6.806304,
+    "end": 8.853923,
+    "text": "Measuring every sample is expensive."
+  },
+  {
+    "start": 10.828617,
+    "end": 16.025306,
+    "text": "REFLEX explores a different question: when should a small local model ask for a new measurement?"
+  },
+  {
+    "start": 18.0,
+    "end": 21.689887,
+    "text": "This is real local inference on public semiconductor research data."
+  },
+  {
+    "start": 23.1568982,
+    "end": 25.6159002,
+    "text": "Each prediction happens before its measurement."
+  },
+  {
+    "start": 27.0829114,
+    "end": 31.5894424,
+    "text": "When a measured result surprises the model, REFLEX shortens the sampling interval."
+  },
+  {
+    "start": 33.0564536,
+    "end": 36.1978596,
+    "text": "As the process stabilizes, it measures less often."
+  },
+  {
+    "start": 37.6648708,
+    "end": 40.532988800000005,
+    "text": "The model updates locally, with no cloud calls."
+  },
+  {
+    "start": 42.0,
+    "end": 46.403447,
+    "text": "Here, eighty-eight measurements cover five hundred and forty-two recorded samples."
+  },
+  {
+    "start": 47.3619275,
+    "end": 53.0415195,
+    "text": "We compare against the published GRAPE model at the same measurement count, and against measuring every sample."
+  },
+  {
+    "start": 54.0,
+    "end": 55.900498999999996,
+    "text": "Our first two experiments failed."
+  },
+  {
+    "start": 56.689902000000004,
+    "end": 60.148269000000006,
+    "text": "The evidence view keeps those failures and both datasets visible."
+  },
+  {
+    "start": 60.937672,
+    "end": 65.21059699999999,
+    "text": "The current prototype reuses GRAPE, with an event-triggered measurement schedule."
+  },
+  {
+    "start": 66.0,
+    "end": 73.065079,
+    "text": "On dataset one, the exploratory schedule reduced error by twenty-three point four percent, at the same measurement budget."
+  },
+  {
+    "start": 75.0,
+    "end": 77.246531,
+    "text": "Dataset two showed no clear advantage."
+  },
+  {
+    "start": 77.941905,
+    "end": 81.304626,
+    "text": "Delayed feedback also removed the first dataset's advantage."
+  },
+  {
+    "start": 82.0,
+    "end": 88.13809499999999,
+    "text": "Our next step is delay-aware adaptation, a fresh holdout, and a CMP data-validation partner."
+  }
+]

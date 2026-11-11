@@ -1,0 +1,24 @@
+{
+  "1": {
+    "relative_rmse_improvement_pct": 23.438930979791074,
+    "block_bootstrap_95_pct": [
+      2.2428928936148105,
+      37.122515999673446
+    ],
+    "block_size": 50,
+    "blocks": 11,
+    "bootstrap_replicates": 5000,
+    "exploratory": true
+  },
+  "2": {
+    "relative_rmse_improvement_pct": 0.9904087870071798,
+    "block_bootstrap_95_pct": [
+      -0.6810944146887449,
+      2.7604052598935316
+    ],
+    "block_size": 50,
+    "blocks": 67,
+    "bootstrap_replicates": 5000,
+    "exploratory": true
+  }
+}

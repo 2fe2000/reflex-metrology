@@ -1,0 +1,25 @@
+{
+  "raw_rows_after_dedup": 970803,
+  "wafer_stage_samples": 2829,
+  "unique_wafers": 2268,
+  "split_counts": {
+    "dev": 545,
+    "embargo": 33,
+    "test": 570,
+    "train": 1681
+  },
+  "machine_stage_counts": "{('dev', 2, 'A'): 287, ('dev', 2, 'B'): 258, ('embargo', 2, 'A'): 18, ('embargo', 2, 'B'): 15, ('test', 2, 'A'): 356, ('test', 2, 'B'): 214, ('train', 2, 'A'): 995, ('train', 2, 'B'): 686}",
+  "chronological_boundaries": [
+    485105869.333,
+    486063051.333
+  ],
+  "features_sha256": "b2cdc39b5799fb3b0f93f2d13ed98eb38a39af1f346ff6f7c10e006d30454cec",
+  "protocol_sha256": "738b36d814e0c3cb5c1782b0478d68ecd1a570b5b075feacb96c3b63fa401675",
+  "label_columns": [
+    "WAFER_ID",
+    "STAGE",
+    "AVG_REMOVAL_RATE"
+  ],
+  "no_maintenance_labels": true,
+  "no_physical_units": true
+}

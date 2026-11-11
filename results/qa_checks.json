@@ -1,0 +1,27 @@
+{
+  "api_complete_runs": [
+    {
+      "policy": "burst",
+      "queries": 88,
+      "rmse": 0.21866161633306014
+    },
+    {
+      "policy": "all",
+      "queries": 542,
+      "rmse": 0.2090362460402764
+    },
+    {
+      "policy": "uniform",
+      "queries": 109,
+      "rmse": 0.25546590385008594
+    },
+    {
+      "policy": "frozen",
+      "queries": 0,
+      "rmse": 1.290489592624813
+    }
+  ],
+  "mobile_horizontal_overflow": false,
+  "browser_errors": [],
+  "causality_unit_tests_passed": 3
+}

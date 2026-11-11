@@ -1,0 +1,115 @@
+{
+  "rows": [
+    {
+      "dataset": 1,
+      "method": "Frozen",
+      "rmse": 1.290489573884337,
+      "p90": 2.1409598801594703,
+      "queries": 0,
+      "n": 542
+    },
+    {
+      "dataset": 1,
+      "method": "GRAPE \u00b7 every sample",
+      "rmse": 0.2090362452394256,
+      "p90": 0.3078541352278819,
+      "queries": 542,
+      "n": 542
+    },
+    {
+      "dataset": 1,
+      "method": "GRAPE \u00b7 20% labels",
+      "rmse": 0.2656001400400669,
+      "p90": 0.3745982768938133,
+      "queries": 108,
+      "n": 542
+    },
+    {
+      "dataset": 1,
+      "method": "GRAPE \u00b7 same-count uniform",
+      "rmse": 0.285604183238387,
+      "p90": 0.3930575309203646,
+      "queries": 88,
+      "n": 542
+    },
+    {
+      "dataset": 1,
+      "method": "REFLEX event-triggered",
+      "rmse": 0.2186616158537454,
+      "p90": 0.3355362029025349,
+      "queries": 88,
+      "n": 542
+    },
+    {
+      "dataset": 2,
+      "method": "Frozen",
+      "rmse": 1.1420921741527434,
+      "p90": 1.793426232144705,
+      "queries": 0,
+      "n": 3317
+    },
+    {
+      "dataset": 2,
+      "method": "GRAPE \u00b7 every sample",
+      "rmse": 0.8054349014558982,
+      "p90": 1.2965074815572404,
+      "queries": 3317,
+      "n": 3317
+    },
+    {
+      "dataset": 2,
+      "method": "GRAPE \u00b7 20% labels",
+      "rmse": 0.8243683062072575,
+      "p90": 1.3284812686702263,
+      "queries": 663,
+      "n": 3317
+    },
+    {
+      "dataset": 2,
+      "method": "GRAPE \u00b7 same-count uniform",
+      "rmse": 0.849265001855143,
+      "p90": 1.3816901631687644,
+      "queries": 342,
+      "n": 3317
+    },
+    {
+      "dataset": 2,
+      "method": "REFLEX event-triggered",
+      "rmse": 0.840853806651793,
+      "p90": 1.3667359215487624,
+      "queries": 342,
+      "n": 3317
+    }
+  ],
+  "verdict": "Original locked success gate failed on both datasets. Exploratory event-triggered revision shows a signal on Dataset 1 only.",
+  "bootstrap": {
+    "1": {
+      "relative_rmse_improvement_pct": 23.438930979791074,
+      "block_bootstrap_95_pct": [
+        2.2428928936148105,
+        37.122515999673446
+      ],
+      "block_size": 50,
+      "blocks": 11,
+      "bootstrap_replicates": 5000,
+      "exploratory": true
+    },
+    "2": {
+      "relative_rmse_improvement_pct": 0.9904087870071798,
+      "block_bootstrap_95_pct": [
+        -0.6810944146887449,
+        2.7604052598935316
+      ],
+      "block_size": 50,
+      "blocks": 67,
+      "bootstrap_replicates": 5000,
+      "exploratory": true
+    }
+  },
+  "protocols": [
+    "protocol.json",
+    "protocol_v2.json"
+  ],
+  "source": "https://github.com/cheonwoolee/GRAPE",
+  "novelty": "Not established. Uses upstream GRAPE model equations plus a simple event-triggered measurement schedule."
+}
