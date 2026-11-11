@@ -1,5 +1,7 @@
 # REFLEX — Semiconductor Process Intelligence
 
+[![REFLEX — Semiconductor Process Intelligence. Predict. Measure. Adapt.](assets/brand/reflex-social.jpg)](https://youtu.be/tyk5UthwVpY)
+
 **A local, delay-aware virtual-metrology research prototype for semiconductor manufacturing.** Process results arrive after subsequent samples have already run. REFLEX stores the original prediction and timestamp, then updates a small ensemble only when the corresponding measurement arrives.
 
 [![Evidence verification](https://github.com/2fe2000/reflex-metrology/actions/workflows/evidence.yml/badge.svg)](https://github.com/2fe2000/reflex-metrology/actions/workflows/evidence.yml)

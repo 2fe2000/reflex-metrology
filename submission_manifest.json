@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T14:52:11.745333+00:00",
+  "generated_utc": "2026-11-11T14:55:32.267789+00:00",
   "note": "SHA-256 of submission files; manifest excludes itself and is anchored by Git commit and CI checkout.",
   "files": [
     {
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11123,
-      "sha256": "d762bed247374e7892096a6f4ff9c1ba9d369293af787764bb543dc1bdec870e"
+      "bytes": 11263,
+      "sha256": "e6b77492dbb156cd544e5a415c1e59c56073476172be8fcd018a04409eec09e2"
     },
     {
       "path": "README.txt",
@@ -36,6 +36,21 @@
       "path": "THIRD_PARTY_LICENSES/GRAPE_LICENSE.txt",
       "bytes": 9270,
       "sha256": "2887aee0a83038c79cd6e1ef5acccd12c5754b2d099245bfd776053a77aba6e4"
+    },
+    {
+      "path": "assets/brand/README.md",
+      "bytes": 1071,
+      "sha256": "67f502f8abe044afdd201b654f41daf65e91facccaab2ca2de881c9479b791d5"
+    },
+    {
+      "path": "assets/brand/reflex-cover.png",
+      "bytes": 2237018,
+      "sha256": "59d2ef868f645c5de43467ce84e8fcceabe6873e369af8d97257e9e35d4fa649"
+    },
+    {
+      "path": "assets/brand/reflex-social.jpg",
+      "bytes": 290873,
+      "sha256": "3bf1920908303ed4674dbb95ca3b89368659d1bad109b898142142c17ad42b6e"
     },
     {
       "path": "benchmark.py",
