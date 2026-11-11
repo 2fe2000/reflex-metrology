@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T14:36:29.146446+00:00",
+  "generated_utc": "2026-11-11T14:40:32.616280+00:00",
   "note": "SHA-256 of submission files; manifest excludes itself and is anchored by Git commit and CI checkout.",
   "files": [
     {
@@ -919,8 +919,8 @@
     },
     {
       "path": "video/edit/onsite/PRODUCTION.txt",
-      "bytes": 1085,
-      "sha256": "e7d17b6cb466bbb36eb8e611ae2ec03855e75f44b89c000e1c0d7ad984ad7df1"
+      "bytes": 1648,
+      "sha256": "e4b76c564fc460fcec89a41ce87dd877150dbc03d6194dd67994a9e306b8ca12"
     },
     {
       "path": "video/edit/onsite/assemble.py",
@@ -931,6 +931,11 @@
       "path": "video/edit/onsite/english_narration.json",
       "bytes": 1438,
       "sha256": "6c88912e0ece2abab158707b5ced5fda585009aee757f60263ea6a5c5babcee8"
+    },
+    {
+      "path": "video/edit/onsite/finalize.py",
+      "bytes": 4416,
+      "sha256": "515481afcfcbe93571dd21cc450d543415f79031c9f47c56d0a5a851231e3321"
     },
     {
       "path": "video/edit/onsite/h3_narration.json",

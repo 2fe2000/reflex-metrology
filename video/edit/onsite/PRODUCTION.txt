@@ -11,3 +11,8 @@ Shoty Seedance 2.5 generated process/presenter visualizations using authorized f
 MiniMax H3 Max backup clips were also generated; main submission uses Seedance. No ElevenLabs voice clone was registered. Personal source references and generation receipts are excluded from Git.
 
 Rendering and word timing scripts are included. Personal reference files and generated media are not needed to run the REFLEX inference SDK.
+
+Final presentation revision: 35.6x = mean random target loss / mean GP target loss (0.012410366859 / 0.000348402630). Values unchanged.
+Industry context: $791.7B 2025 semiconductor sales, SIA release February 6, 2026. This is industry scale, not REFLEX TAM.
+Source: https://www.semiconductors.org/global-annual-semiconductor-sales-increase-25-6-to-791-7-billion-in-2025/
+Business proposal: paid equipment pilots followed by on-premise model licensing. Not signed revenue. R&D proposal: choose process/device parameters, simulate, measure, then update the model.
