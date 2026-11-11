@@ -1,6 +1,6 @@
 # REFLEX — Semiconductor Process Intelligence
 
-[![REFLEX — Semiconductor Process Intelligence. Predict. Measure. Adapt.](assets/brand/reflex-social.jpg)](https://youtu.be/tyk5UthwVpY)
+[![REFLEX — Semiconductor Process Intelligence. Predict. Measure. Adapt.](assets/brand/reflex-social.jpg)](https://youtu.be/kruOtEYtZKM)
 
 **A local, delay-aware virtual-metrology research prototype for semiconductor manufacturing.** Process results arrive after subsequent samples have already run. REFLEX stores the original prediction and timestamp, then updates a small ensemble only when the corresponding measurement arrives.
 
@@ -8,13 +8,13 @@
 
 ## Judge review — start here
 
-1. [Watch the 90-second final video](https://youtu.be/tyk5UthwVpY): process → feedback delay → model → actual replay → all-condition evidence → customer value and device-R&D vision.
+1. [Watch the 90-second final video](https://youtu.be/kruOtEYtZKM): process → feedback delay → model → actual replay → all-condition evidence → customer value and device-R&D vision.
 2. [Download the standalone industry and benchmark dashboard](deliverables/REFLEX_customer_benchmark.html). Open the downloaded HTML in a browser; interactive charts work offline.
 3. [Editable pitch deck](deliverables/REFLEX_delay_pitch.pptx) · [PDF](deliverables/REFLEX_delay_pitch.pdf) · [Full model report](deliverables/REFLEX_delay_report.html).
 4. [Raw customer benchmarks](results/customer/means.csv) · [locked protocol](protocol_customer_benchmark.json) · [machine-readable results and intervals](results/customer/summary.json).
 5. [Build record](provenance/build_record.json) · [commit history](../../commits/main) · [GitHub verification runs](../../actions) · [content hashes](submission_manifest.json).
 
-The repository is public for judging. The submitted demo links to the final 90-second research-graphics cut; benchmark claims below retain their measured scope.
+The repository is public for judging. The final demo above is the owner-selected founder and factory cut. The submission form closed before its earlier video link could be replaced; the earlier video description points to this final cut. Benchmark claims below retain their measured scope.
 
 ## Why the problem matters
 

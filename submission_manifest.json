@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T14:55:32.267789+00:00",
+  "generated_utc": "2026-11-11T15:10:56.534140+00:00",
   "note": "SHA-256 of submission files; manifest excludes itself and is anchored by Git commit and CI checkout.",
   "files": [
     {
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11263,
-      "sha256": "e6b77492dbb156cd544e5a415c1e59c56073476172be8fcd018a04409eec09e2"
+      "bytes": 11392,
+      "sha256": "68a98bcad204e437f57db637f3d3a24cd623161d6362c4bf1bdeea2f0e84135c"
     },
     {
       "path": "README.txt",
