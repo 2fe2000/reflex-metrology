@@ -1,0 +1,81 @@
+{
+  "recorded_utc": "2026-11-11T13:47:11.089377+00:00",
+  "event": {
+    "url": "https://luma.com/compiled-poy7",
+    "published_hacking_start": "2026-11-11T18:45:00+08:00",
+    "published_hacking_end": "2026-11-11T22:45:00+08:00",
+    "rules_summary": "Existing models/APIs/libraries permitted; product built during event;90-second video and GitHub URL required; schedule subject to change."
+  },
+  "github_server_metadata": {
+    "createdAt": "2026-11-11T12:55:11Z",
+    "name": "reflex-metrology",
+    "pushedAt": "2026-11-11T13:18:15Z",
+    "url": "https://github.com/2fe2000/reflex-metrology",
+    "visibility": "PRIVATE"
+  },
+  "commits_before_final_packaging": [
+    {
+      "sha": "9aa8904224caba170c53d30abe5b9be2ecde62aa",
+      "author_time": "2026-11-11T22:18:11+09:00",
+      "committer_time": "2026-11-11T22:18:11+09:00",
+      "title": "Add causal delayed-metrology models, complete comparisons and revised demo"
+    },
+    {
+      "sha": "6e35c7452edd3962bc3c322a20b89ce76faf03bd",
+      "author_time": "2026-11-11T21:55:01+09:00",
+      "committer_time": "2026-11-11T21:55:01+09:00",
+      "title": "Build REFLEX metrology research demo and evidence package"
+    }
+  ],
+  "local_file_records": [
+    {
+      "path": "protocol.json",
+      "birthtime_utc": "2026-11-11T12:28:46.147087+00:00",
+      "sha256": "07a513a395beef11a2aed3dffabfc7e5ae1934be904ecfa100670056297f1fca"
+    },
+    {
+      "path": "protocol_v2.json",
+      "birthtime_utc": "2026-11-11T12:33:37.525462+00:00",
+      "sha256": "da4f13c9b1a5b438c60b6d80f6eec4aefa61fb1a9eeae8b79c4b22203d6a912f"
+    },
+    {
+      "path": "protocol_v7.json",
+      "birthtime_utc": "2026-11-11T13:06:30.117507+00:00",
+      "sha256": "81b6931d76b40533aab3007d0f6e64352460e2c4d47a7e5de919c5927b8def9f"
+    },
+    {
+      "path": "protocol_customer_benchmark.json",
+      "birthtime_utc": "2026-11-11T13:25:36.698137+00:00",
+      "sha256": "9621f1e5429ea8f4b1bd232cbf8aacf7b4ff7107f2e5d4e22564c7d82287a655"
+    },
+    {
+      "path": "protocol_inverse_design.json",
+      "birthtime_utc": "2026-11-11T13:41:49.472297+00:00",
+      "sha256": "a90397d7bf3d5d904ebfee4e98cdd3e3631a0b09532b3cc5e7aa63c0dac3b07b"
+    },
+    {
+      "path": "results/customer/threshold_lock.json",
+      "birthtime_utc": "2026-11-11T13:26:10.312967+00:00",
+      "sha256": "d4fe525bb65dc67fb74fa0543988628be86c78a8871aebb0ec41e2d152de7a78"
+    }
+  ],
+  "timestamp_correction_record": "results/protocol_timestamp_correction.json",
+  "reused_resources": [
+    {
+      "name": "GRAPE",
+      "url": "https://github.com/cheonwoolee/GRAPE",
+      "commit": "cce2d27a092abd9e397d7739e4beb6dfe0ae145e",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "DEVSIM",
+      "url": "https://github.com/devsim/devsim",
+      "version": "2.11.2",
+      "source_inspected_commit": "e3a25f08c7f17cc6932624c12bf9f0f10d7f7cfd",
+      "license": "Apache-2.0; other dependencies have their own notices"
+    }
+  ],
+  "event_implementation": "AI-assisted portable causal replay, delayed-model ensemble, numerical/causality tests, frozen comparisons, UI, motion graphics, original narrated90s video, physics-driven device target-matching prototype, learned-posterior export.",
+  "authority_limits": "GitHub repository creation and CI timestamps are server records. Git author/committer times, filesystem birth times, protocol dates and this document are locally controlled supporting records, not independent proof of original authorship for every line. No backdating or fabricated history. Final GitHub CI runs identify their exact checkout SHA.",
+  "privacy": "Private repository preserved at explicit owner request. No judge access granted and no submission made."
+}

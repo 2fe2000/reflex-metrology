@@ -1,0 +1,15 @@
+Final edit, 2026-11-11, user-directed process-to-device story.
+0–12 semiconductor process schematic;12–24 delayed measurements;
+24–38 timestamped expert updates;38–58 actual accelerated V7 replay;
+58–68 equal-budget error-frequency result;68–76 complete delayed comparison;
+76–85 actual DEVSIM device-target search;85–90 advanced-device vision.
+Final duration90.000s;1920x1080/30fps;English Samantha TTS narration.
+Original footage/earlier edits preserved. Final captions applied last.
+Per-utterance30ms audio fades. Actual recorded demo accelerated1.2x from24s.
+Visual review includes every scene transition and encoded84.8/89s frames.
+Technical facts:18.81% relative large-error reduction is onlyD1/delay5;
+97.19% is target log-current MSE reduction in basic1D diode simulation,
+not chip performance improvement. Actual256-design generation cost retained.
+Full failures, weaker conditions and unchanged-model baselines preserved.
+Design-loop narration replaced hypotheticalROI; business scenario remains
+in interactive dashboard with explicit unvalidated inputs.

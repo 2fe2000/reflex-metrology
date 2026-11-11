@@ -1,0 +1,7 @@
+{
+  "rerun_directory": "reruns/inverse_20261111T135010Z",
+  "all_five_search_outcomes": "exactly_equal",
+  "all40model_checkpoints": "exactly_equal",
+  "refined_mesh_currents": "exactly_equal",
+  "scope": "Fresh256-design physics regeneration and search in isolated directory, same machine and pinned packages."
+}

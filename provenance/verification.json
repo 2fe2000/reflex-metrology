@@ -1,0 +1,36 @@
+{
+  "portable_tests": 12,
+  "portable_test_command": "python3 -m unittest -v test_runtime test_delay_model test_device_surrogate",
+  "portable_test_status": "passed",
+  "customer_ui": {
+    "errors": [],
+    "selector_combinations_checked": 2,
+    "download_rows": 40,
+    "roi_arithmetic": "pass",
+    "mobile_no_overflow": true,
+    "standalone_file_load": true
+  },
+  "research_ui": {
+    "errors": [],
+    "browser_vs_numpy_posterior": "pass within displayed precision",
+    "replay8to32": "pass",
+    "seed_switch": "pass",
+    "mobile_no_overflow": true,
+    "standalone_file_load": true
+  },
+  "video": {
+    "path": "deliverables/REFLEX_final_90s.mp4",
+    "duration_s": 90.0,
+    "resolution": "1920x1080",
+    "fps": 30,
+    "voice": "English native Samantha TTS; original script",
+    "visual_review": "20 sampled encoded frames, including every scene boundary and final device-design/vision scenes.",
+    "actual_desktop": "Opened in Chrome and clicked Play; AX state showed audio playing and Pause control.",
+    "audio_limitation": "Full human-style listening not claimed."
+  },
+  "desktop_pages_opened": [
+    "http://127.0.0.1:8765/benchmark.html",
+    "http://127.0.0.1:8765/research.html"
+  ],
+  "research_replay": "Actual desktop playback verified at32 acquired labels and selected0.426um design."
+}

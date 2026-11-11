@@ -1,0 +1,668 @@
+{
+  "protocol_sha256": "9621f1e5429ea8f4b1bd232cbf8aacf7b4ff7107f2e5d4e22564c7d82287a655",
+  "replicates": 5000,
+  "block_length": 50,
+  "seed": 761102,
+  "conditions": [
+    {
+      "dataset": 1,
+      "delay": 5,
+      "n": 542,
+      "threshold": 0.3230683217725144,
+      "same_budget": {
+        "grape_rmse": 0.32573033257551837,
+        "reflex_rmse": 0.3142179409818699,
+        "rmse_improvement_pct": 3.534332066228252,
+        "p90_improvement_pct": 12.051285563214975,
+        "exceedance_rates": {
+          "grape": 0.15498154981549817,
+          "reflex": 0.12583025830258301
+        },
+        "exceedance_reduction_pct": 18.80952380952382,
+        "exceedance_reduction_pp": 2.915129151291515,
+        "exceedance_reduction_pct_ci95": [
+          5.422553790232741,
+          30.883747211459404
+        ],
+        "exceedance_reduction_pp_ci95": [
+          0.6273062730627319,
+          5.461254612546123
+        ]
+      },
+      "half_measurements": {
+        "reflex10": {
+          "ratios": {
+            "rmse": 1.1051499209790565,
+            "p90": 0.9598724970471221
+          },
+          "ci95": {
+            "rmse": [
+              0.8604867046486842,
+              1.2283849472655344
+            ],
+            "p90": [
+              0.8435895838155151,
+              1.6899869813554553
+            ]
+          },
+          "point_pass": false,
+          "ci_pass": false
+        },
+        "grape10": {
+          "ratios": {
+            "rmse": 1.126966043144642,
+            "p90": 1.0752728421093394
+          },
+          "ci95": {
+            "rmse": [
+              0.9898005392991166,
+              1.2263246968027917
+            ],
+            "p90": [
+              0.9734085985342111,
+              1.5919348220094802
+            ]
+          },
+          "point_pass": false,
+          "ci_pass": false
+        }
+      }
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "n": 542,
+      "threshold": 0.32987233075604483,
+      "same_budget": {
+        "grape_rmse": 0.47120895777041555,
+        "reflex_rmse": 0.4717909395192522,
+        "rmse_improvement_pct": -0.12350820994371237,
+        "p90_improvement_pct": 7.60809267489223,
+        "exceedance_rates": {
+          "grape": 0.17195571955719557,
+          "reflex": 0.15239852398523984
+        },
+        "exceedance_reduction_pct": 11.373390557939922,
+        "exceedance_reduction_pp": 1.9557195571955732,
+        "exceedance_reduction_pct_ci95": [
+          -4.682291219944542,
+          33.843391557496346
+        ],
+        "exceedance_reduction_pp_ci95": [
+          -0.9594095940959418,
+          5.1660516605166045
+        ]
+      },
+      "half_measurements": {
+        "reflex10": {
+          "ratios": {
+            "rmse": 1.0611065593812703,
+            "p90": 1.0349923664349163
+          },
+          "ci95": {
+            "rmse": [
+              0.9052061140587083,
+              1.1804623204212548
+            ],
+            "p90": [
+              0.8929001472182139,
+              1.6105644666096446
+            ]
+          },
+          "point_pass": false,
+          "ci_pass": false
+        },
+        "grape10": {
+          "ratios": {
+            "rmse": 1.061114120569173,
+            "p90": 1.0454614213702778
+          },
+          "ci95": {
+            "rmse": [
+              0.9877994888702611,
+              1.1652455291078894
+            ],
+            "p90": [
+              0.9796471251529945,
+              1.5283472979436368
+            ]
+          },
+          "point_pass": false,
+          "ci_pass": false
+        }
+      }
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "n": 3317,
+      "threshold": 1.6569977633793076,
+      "same_budget": {
+        "grape_rmse": 0.8389013997191135,
+        "reflex_rmse": 0.8344984014298473,
+        "rmse_improvement_pct": 0.5248528957920939,
+        "p90_improvement_pct": 0.5497323760608852,
+        "exceedance_rates": {
+          "grape": 0.0478745854687971,
+          "reflex": 0.04479951763641845
+        },
+        "exceedance_reduction_pct": 6.4231738035264385,
+        "exceedance_reduction_pp": 0.3075067832378653,
+        "exceedance_reduction_pct_ci95": [
+          2.9933007372031732,
+          10.462076632740908
+        ],
+        "exceedance_reduction_pp_ci95": [
+          0.13867952969550817,
+          0.4944226710883327
+        ]
+      },
+      "half_measurements": {
+        "reflex10": {
+          "ratios": {
+            "rmse": 1.002669032336231,
+            "p90": 1.003022159114804
+          },
+          "ci95": {
+            "rmse": [
+              0.9978532452131069,
+              1.007087427937375
+            ],
+            "p90": [
+              0.993197739865623,
+              1.012258128930769
+            ]
+          },
+          "point_pass": true,
+          "ci_pass": true
+        },
+        "grape10": {
+          "ratios": {
+            "rmse": 1.0041806395290684,
+            "p90": 1.0050093949412364
+          },
+          "ci95": {
+            "rmse": [
+              0.9997861944654072,
+              1.007960146482464
+            ],
+            "p90": [
+              0.9968214359480319,
+              1.0112631223747843
+            ]
+          },
+          "point_pass": true,
+          "ci_pass": true
+        }
+      }
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "n": 3317,
+      "threshold": 1.6622626460579497,
+      "same_budget": {
+        "grape_rmse": 0.8460172832341714,
+        "reflex_rmse": 0.8442977502013459,
+        "rmse_improvement_pct": 0.20325034333246172,
+        "p90_improvement_pct": 0.06941062507561657,
+        "exceedance_rates": {
+          "grape": 0.04703044920108532,
+          "reflex": 0.046005426590292435
+        },
+        "exceedance_reduction_pct": 2.1794871794871717,
+        "exceedance_reduction_pp": 0.1025022610792882,
+        "exceedance_reduction_pct_ci95": [
+          -1.4052798294601632,
+          5.85658686401903
+        ],
+        "exceedance_reduction_pp_ci95": [
+          -0.06632499246306892,
+          0.271329514621646
+        ]
+      },
+      "half_measurements": {
+        "reflex10": {
+          "ratios": {
+            "rmse": 1.000004909430024,
+            "p90": 1.0031690680956897
+          },
+          "ci95": {
+            "rmse": [
+              0.9949731667807716,
+              1.0051326047249647
+            ],
+            "p90": [
+              0.9955347264012144,
+              1.0110698303550043
+            ]
+          },
+          "point_pass": true,
+          "ci_pass": true
+        },
+        "grape10": {
+          "ratios": {
+            "rmse": 1.001671954234987,
+            "p90": 1.0007942406989934
+          },
+          "ci95": {
+            "rmse": [
+              0.997449079264831,
+              1.0056645044581003
+            ],
+            "p90": [
+              0.9959732761423771,
+              1.009235949487794
+            ]
+          },
+          "point_pass": true,
+          "ci_pass": true
+        }
+      }
+    }
+  ],
+  "frontier": [
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "grape",
+      "period": 1,
+      "queries": 542.0,
+      "rmse": 0.2970053382093685,
+      "p90": 0.3789784941448293,
+      "error_exceedance_rate": 0.1512915129151291
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "grape",
+      "period": 2,
+      "queries": 271.0,
+      "rmse": 0.3026841794097684,
+      "p90": 0.3804283758321575,
+      "error_exceedance_rate": 0.1411439114391144
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "grape",
+      "period": 5,
+      "queries": 108.4,
+      "rmse": 0.3257303325755183,
+      "p90": 0.3957514039122565,
+      "error_exceedance_rate": 0.1549815498154981
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "grape",
+      "period": 10,
+      "queries": 54.2,
+      "rmse": 0.3670870240348202,
+      "p90": 0.4255407368534931,
+      "error_exceedance_rate": 0.177490774907749
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "grape",
+      "period": 20,
+      "queries": 27.1,
+      "rmse": 0.4341490822988155,
+      "p90": 0.4916586719941817,
+      "error_exceedance_rate": 0.1970479704797048
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "reflex",
+      "period": 1,
+      "queries": 542.0,
+      "rmse": 0.2797684103890337,
+      "p90": 0.3250924505324285,
+      "error_exceedance_rate": 0.1014760147601476
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "reflex",
+      "period": 2,
+      "queries": 271.0,
+      "rmse": 0.291077017732409,
+      "p90": 0.3377406423164346,
+      "error_exceedance_rate": 0.1143911439114391
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "reflex",
+      "period": 5,
+      "queries": 108.4,
+      "rmse": 0.3142179409818699,
+      "p90": 0.3480582721063581,
+      "error_exceedance_rate": 0.125830258302583
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "reflex",
+      "period": 10,
+      "queries": 54.2,
+      "rmse": 0.3599808513063159,
+      "p90": 0.3798708882831618,
+      "error_exceedance_rate": 0.1455719557195572
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "reflex",
+      "period": 20,
+      "queries": 27.1,
+      "rmse": 0.431278769758486,
+      "p90": 0.4574963971021872,
+      "error_exceedance_rate": 0.1781365313653136
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "grape",
+      "period": 1,
+      "queries": 542.0,
+      "rmse": 0.4543836724750559,
+      "p90": 0.4350088141929449,
+      "error_exceedance_rate": 0.1715867158671586
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "grape",
+      "period": 2,
+      "queries": 271.0,
+      "rmse": 0.4559110805175558,
+      "p90": 0.4185377467608122,
+      "error_exceedance_rate": 0.1678966789667896
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "grape",
+      "period": 5,
+      "queries": 108.4,
+      "rmse": 0.4712089577704155,
+      "p90": 0.4339358938568353,
+      "error_exceedance_rate": 0.1719557195571955
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "grape",
+      "period": 10,
+      "queries": 54.2,
+      "rmse": 0.5000064788288711,
+      "p90": 0.453663236375149,
+      "error_exceedance_rate": 0.179520295202952
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "grape",
+      "period": 20,
+      "queries": 27.1,
+      "rmse": 0.5496449641604597,
+      "p90": 0.6387337640139424,
+      "error_exceedance_rate": 0.2083948339483394
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "reflex",
+      "period": 1,
+      "queries": 542.0,
+      "rmse": 0.4518018732703088,
+      "p90": 0.3943646866393966,
+      "error_exceedance_rate": 0.1568265682656826
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "reflex",
+      "period": 2,
+      "queries": 271.0,
+      "rmse": 0.4562593695039302,
+      "p90": 0.3977964291096222,
+      "error_exceedance_rate": 0.1466789667896679
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "reflex",
+      "period": 5,
+      "queries": 108.4,
+      "rmse": 0.4717909395192522,
+      "p90": 0.4009216489025853,
+      "error_exceedance_rate": 0.1523985239852398
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "reflex",
+      "period": 10,
+      "queries": 54.2,
+      "rmse": 0.5000029159293999,
+      "p90": 0.4491203376639366,
+      "error_exceedance_rate": 0.1656826568265682
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "reflex",
+      "period": 20,
+      "queries": 27.1,
+      "rmse": 0.5476927057011142,
+      "p90": 0.6230190722316145,
+      "error_exceedance_rate": 0.1945571955719557
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "grape",
+      "period": 1,
+      "queries": 3317.0,
+      "rmse": 0.8392667017573426,
+      "p90": 1.3577274232426086,
+      "error_exceedance_rate": 0.0455230630087428
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "grape",
+      "period": 2,
+      "queries": 1658.5,
+      "rmse": 0.8348985497693159,
+      "p90": 1.3532388210172313,
+      "error_exceedance_rate": 0.0452215857702743
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "grape",
+      "period": 5,
+      "queries": 663.4,
+      "rmse": 0.8389013997191137,
+      "p90": 1.3485709542066284,
+      "error_exceedance_rate": 0.0478745854687971
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "grape",
+      "period": 10,
+      "queries": 331.7,
+      "rmse": 0.84240854407177,
+      "p90": 1.3553264787225294,
+      "error_exceedance_rate": 0.047482665058788
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "grape",
+      "period": 20,
+      "queries": 165.85,
+      "rmse": 0.8544614823816563,
+      "p90": 1.373055112809954,
+      "error_exceedance_rate": 0.0494573409707567
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "reflex",
+      "period": 1,
+      "queries": 3317.0,
+      "rmse": 0.8254421426034984,
+      "p90": 1.332969878291833,
+      "error_exceedance_rate": 0.0434127223394633
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "reflex",
+      "period": 2,
+      "queries": 1658.5,
+      "rmse": 0.8264325032000603,
+      "p90": 1.3324019775951288,
+      "error_exceedance_rate": 0.0437141995779318
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "reflex",
+      "period": 5,
+      "queries": 663.4,
+      "rmse": 0.8344984014298473,
+      "p90": 1.3411574230572014,
+      "error_exceedance_rate": 0.0447995176364184
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "reflex",
+      "period": 10,
+      "queries": 331.7,
+      "rmse": 0.8411404546818734,
+      "p90": 1.3526465502078435,
+      "error_exceedance_rate": 0.0467591196864636
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "reflex",
+      "period": 20,
+      "queries": 165.85,
+      "rmse": 0.8515651359035497,
+      "p90": 1.371369033546576,
+      "error_exceedance_rate": 0.0484775399457341
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "grape",
+      "period": 1,
+      "queries": 3317.0,
+      "rmse": 0.8533695905559803,
+      "p90": 1.3728069830215033,
+      "error_exceedance_rate": 0.0494422671088332
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "grape",
+      "period": 2,
+      "queries": 1658.5,
+      "rmse": 0.8469715794659036,
+      "p90": 1.3570347832312384,
+      "error_exceedance_rate": 0.0464274947241483
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "grape",
+      "period": 5,
+      "queries": 663.4,
+      "rmse": 0.8460172832341712,
+      "p90": 1.356338957585128,
+      "error_exceedance_rate": 0.0470304492010853
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "grape",
+      "period": 10,
+      "queries": 331.7,
+      "rmse": 0.8474317854137468,
+      "p90": 1.3574162171868729,
+      "error_exceedance_rate": 0.0470304492010853
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "grape",
+      "period": 20,
+      "queries": 165.85,
+      "rmse": 0.8565906969876718,
+      "p90": 1.377514859109405,
+      "error_exceedance_rate": 0.0491709375942116
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "reflex",
+      "period": 1,
+      "queries": 3317.0,
+      "rmse": 0.836693228246425,
+      "p90": 1.366241237641995,
+      "error_exceedance_rate": 0.0461260174856798
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "reflex",
+      "period": 2,
+      "queries": 1658.5,
+      "rmse": 0.8360582032791953,
+      "p90": 1.3509214139040733,
+      "error_exceedance_rate": 0.0455230630087428
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "reflex",
+      "period": 5,
+      "queries": 663.4,
+      "rmse": 0.8442977502013459,
+      "p90": 1.3553975142365244,
+      "error_exceedance_rate": 0.0460054265902924
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "reflex",
+      "period": 10,
+      "queries": 331.7,
+      "rmse": 0.8460214366968225,
+      "p90": 1.360637288102552,
+      "error_exceedance_rate": 0.0466686765149231
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "reflex",
+      "period": 20,
+      "queries": 165.85,
+      "rmse": 0.8541621790115201,
+      "p90": 1.3726501695835132,
+      "error_exceedance_rate": 0.0486132047030449
+    }
+  ],
+  "primary_pass": false,
+  "limits": "Exploratory reused streams; intervals conditional on frozen candidate and do not correct repeated inspection/model selection. Offsets are not independent trials. Exceedance is normalized prediction error, not defect rate or physical specification."
+}

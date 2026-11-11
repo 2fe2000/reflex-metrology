@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-11-11T13:41:49.472169+00:00",
+  "task": "Match target I-V behavior by choosing p/n doping and junction length. 1D silicon diode, not an advanced-node transistor.",
+  "simulator": "DEVSIM2.11.2; finite-volume Poisson/drift-diffusion/SRH;300K;constant upstream mobility;no quantum/tunnelling/high-field/breakdown model",
+  "space": {
+    "log10_acceptor_cm3": [
+      16,
+      18
+    ],
+    "log10_donor_cm3": [
+      16,
+      18
+    ],
+    "length_um": [
+      0.1,
+      1.0
+    ]
+  },
+  "target_reference_parameters": [
+    17.3,
+    17.6,
+    0.55
+  ],
+  "biases_v": [
+    0.2,
+    0.4,
+    0.5
+  ],
+  "design_pool": 192,
+  "heldout_surrogate_test": 64,
+  "dataset_seed": 261111,
+  "search_seeds": [
+    11,
+    23,
+    37,
+    51,
+    71
+  ],
+  "initial_points": 8,
+  "budget": 32,
+  "methods": [
+    "random",
+    "standard_gp_expected_improvement"
+  ],
+  "primary": "Mean best target log-current MSE after32 queried designs versus paired random search; report all5seeds. No tuned win threshold.",
+  "secondary": "Fixed heldout log-current prediction RMSE at8,16,24,32labels; no heldout label provided to model.",
+  "limits": "Offline replay of an actually generated TCAD pool: all256 simulations incur generation cost. Search query savings are counterfactual, not measured wall-clock or fab savings. Target is a known synthetic reference, not a better-than-market device. Same pool shared across seeds.",
+  "qualification": "Retain simulation failures. Final best designs independently rerun at double mesh density; report current conservation and mesh sensitivity."
+}

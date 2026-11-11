@@ -1,3 +1,8 @@
+FINAL JUDGE ENTRY: README.md
+Final video: deliverables/REFLEX_final_90s.mp4
+Industry dashboard: deliverables/REFLEX_customer_benchmark.html
+Device R&D extension: deliverables/REFLEX_device_research.html
+
 LATEST: DELAYED-METROLOGY MODEL (V7)
 ===================================
 Run the same server, then open http://127.0.0.1:8765/delay.html

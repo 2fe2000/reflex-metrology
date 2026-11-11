@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-11-11T13:25:36.697853+00:00",
+  "purpose": "Customer-relevant final benchmark; v7 weights frozen; no new fitting or selective deletion",
+  "status": "Exploratory reused evaluation streams. No actual fab cost or yield measured.",
+  "datasets": [
+    1,
+    2
+  ],
+  "delays": [
+    5,
+    20
+  ],
+  "periods": [
+    1,
+    2,
+    5,
+    10,
+    20
+  ],
+  "phases": "Every offset for each period; all offsets share one stream, not independent trials",
+  "methods": [
+    "grape",
+    "reflex_v7"
+  ],
+  "primary": "REFLEX at period10 must have mean RMSE<=1.02 and mean P90<=1.05 times GRAPE at period5 in all four dataset-delay conditions. Reduction about50% in requested measurements. Report if GRAPE period10 also passes; then savings are not attributable to REFLEX.",
+  "secondary": "Absolute-error exceedance threshold =95th percentile of all phase predictions from GRAPE period5 on valid+test at each dataset and delay, fixed before evaluation. Report relative reduction in exceedance rate and absolute percentage-point difference. This is a prediction-error proxy, not a physical manufacturing specification or defect rate.",
+  "uncertainty": "Paired circular block bootstrap50samples5000replicates; noninferiority supported only if upper95% interval below both margins. These intervals do not remove model-selection/reuse bias.",
+  "limits": "No maintenance-event labels, real elapsed metrology latency, wafer cost, yield, or factory productivity observed; scenario calculator must label all such inputs as assumptions."
+}

@@ -1,0 +1,3 @@
+file '/Users/2fe/Desktop/DEV/reflex-cmp-research/video/edit/final/animations/opening/opening.mp4'
+file '/Users/2fe/Desktop/DEV/reflex-cmp-research/video/edit/final/clips/live.mp4'
+file '/Users/2fe/Desktop/DEV/reflex-cmp-research/video/edit/final/animations/evidence/evidence.mp4'

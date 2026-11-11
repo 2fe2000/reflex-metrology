@@ -1,0 +1,11 @@
+{
+  "locked_at": 1794403570.3128371,
+  "thresholds": {
+    "1_5": 0.3230683217725144,
+    "1_20": 0.32987233075604483,
+    "2_5": 1.6569977633793076,
+    "2_20": 1.6622626460579497
+  },
+  "source": "valid+test; GRAPE period5 all offsets; pooled95th absolute-error quantile",
+  "protocol_sha256": "9621f1e5429ea8f4b1bd232cbf8aacf7b4ff7107f2e5d4e22564c7d82287a655"
+}

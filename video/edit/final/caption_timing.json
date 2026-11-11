@@ -1,0 +1,92 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.572381,
+    "text": "Chips are built through repeated deposition, patterning, etching, and polishing."
+  },
+  {
+    "start": 6.0085715,
+    "end": 10.563809500000001,
+    "text": "Metrology checks the result, helping engineers keep the next run on target."
+  },
+  {
+    "start": 12.0,
+    "end": 13.38585,
+    "text": "But measurements arrive late."
+  },
+  {
+    "start": 14.496175000000001,
+    "end": 19.763749,
+    "text": "After a process shift, wafers keep moving while models are still learning from older results."
+  },
+  {
+    "start": 20.874074,
+    "end": 22.889675,
+    "text": "REFLEX targets that feedback gap."
+  },
+  {
+    "start": 24.0,
+    "end": 27.74068,
+    "text": "We combine a baseline, a drift filter, and a regime model."
+  },
+  {
+    "start": 28.960317,
+    "end": 32.313288,
+    "text": "Each request retains its timestamp and original prediction."
+  },
+  {
+    "start": 33.532925,
+    "end": 36.780363,
+    "text": "Expert weights update only when the matching measurement arrives."
+  },
+  {
+    "start": 38.0,
+    "end": 42.305488,
+    "text": "This is actual local inference on a public recorded stream, accelerated."
+  },
+  {
+    "start": 43.904354,
+    "end": 48.239138999999994,
+    "text": "Both models request every fifth sample and receive results five samples later."
+  },
+  {
+    "start": 49.838005,
+    "end": 53.214876000000004,
+    "text": "The ensemble updates causally, with no future labels."
+  },
+  {
+    "start": 54.813742000000005,
+    "end": 56.401134000000006,
+    "text": "Its regime state is bounded."
+  },
+  {
+    "start": 58.0,
+    "end": 63.637052,
+    "text": "On dataset one, large prediction errors fell eighteen point eight percent at the same measurement budget."
+  },
+  {
+    "start": 64.0895465,
+    "end": 67.5475055,
+    "text": "This is prediction quality, not measured defect reduction."
+  },
+  {
+    "start": 68.0,
+    "end": 72.68712,
+    "text": "Across four delayed conditions, average root mean square error improved one percent."
+  },
+  {
+    "start": 73.190272,
+    "end": 75.496848,
+    "text": "Halving measurements did not pass overall."
+  },
+  {
+    "start": 76.0,
+    "end": 82.707256,
+    "text": "A basic diode simulation extends the loop to design: ninety-seven percent less target mismatch than random search."
+  },
+  {
+    "start": 85.0,
+    "end": 89.4,
+    "text": "Our vision: learn from every experiment to design better semiconductor devices."
+  }
+]

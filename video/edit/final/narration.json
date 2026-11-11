@@ -1,0 +1,50 @@
+[
+  {
+    "name": "process",
+    "start": 0,
+    "duration": 12,
+    "text": "Chips are built through repeated deposition, patterning, etching, and polishing. Metrology checks the result, helping engineers keep the next run on target."
+  },
+  {
+    "name": "problem",
+    "start": 12,
+    "duration": 12,
+    "text": "But measurements arrive late. After a process shift, wafers keep moving while models are still learning from older results. REFLEX targets that feedback gap."
+  },
+  {
+    "name": "mechanism",
+    "start": 24,
+    "duration": 14,
+    "text": "We combine a baseline, a drift filter, and a regime model. Each request retains its timestamp and original prediction. Expert weights update only when the matching measurement arrives."
+  },
+  {
+    "name": "demo",
+    "start": 38,
+    "duration": 20,
+    "text": "This is actual local inference on a public recorded stream, accelerated. Both models request every fifth sample and receive results five samples later. The ensemble updates causally, with no future labels. Its regime state is bounded."
+  },
+  {
+    "name": "result",
+    "start": 58,
+    "duration": 10,
+    "text": "On dataset one, large prediction errors fell eighteen point eight percent at the same measurement budget. This is prediction quality, not measured defect reduction."
+  },
+  {
+    "name": "comparison",
+    "start": 68,
+    "duration": 8,
+    "text": "Across four delayed conditions, average root mean square error improved one percent. Halving measurements did not pass overall."
+  },
+  {
+    "name": "value",
+    "start": 76,
+    "duration": 9,
+    "text": "A basic diode simulation extends the loop to design: ninety-seven percent less target mismatch than random search."
+  },
+  {
+    "name": "vision",
+    "start": 85,
+    "duration": 5,
+    "text": "Our vision: learn from every experiment to design better semiconductor devices."
+  }
+]
