@@ -55,9 +55,26 @@ This is an independently implemented research combination, **not an established 
 
 ## Run the live demo
 
+Requires **Python 3.11 or newer**. To use the model without the dashboard:
+
+```sh
+git clone https://github.com/2fe2000/reflex-metrology.git
+cd reflex-metrology
+python3 -m venv .venv
+.venv/bin/pip install .
+.venv/bin/reflex --model models/reflex_delayed_1.json --input examples/events.jsonl
+```
+
+This executes 12 public recorded samples and delivers two delayed measurements.
+The installed `reflex` command also works outside the checkout with absolute paths.
+It emits JSONL; inference requires only NumPy, no API key, GPU or hosted service.
+Repository access is still required while private. [Python API, event schema and integration limits](docs/SDK.md).
+
+To run the dashboard:
+
 ```sh
 python3 -m venv .venv
-.venv/bin/pip install numpy==2.4.6 pandas
+.venv/bin/pip install . numpy==2.4.6 pandas
 .venv/bin/python server.py --port 8765
 ```
 
@@ -66,7 +83,7 @@ Open `http://127.0.0.1:8765/delay.html` for actual local inference, or `http://1
 ## Verify and reproduce
 
 ```sh
-.venv/bin/python -m unittest -v test_runtime test_delay_model test_device_surrogate
+.venv/bin/python -m unittest -v test_runtime test_delay_model test_device_surrogate test_sdk
 .venv/bin/python verify_evidence.py
 ```
 
@@ -110,3 +127,7 @@ GitHub reports repository creation at **2026-11-11 12:55:11 UTC**. Commit record
 Existing resources: GRAPE code/data, scientific Python, DEVSIM and cited research. Event work: portable deployment, causal delayed-feedback replay, model combination, comparative evaluation, interface, narrative, motion graphics and device-loop prototype. All attribution and available license notices are retained under [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES).
 
 Hardware: M5 Pro local work; M4 Pro independent V7 execution; M4 earlier-version execution. DGX was **not used** because the saved hostname did not resolve and an alternative node rejected the saved login user. No GMI credit or GPU-training claim is made.
+
+## GStack / GBrain / Transpose consideration
+
+GStack's `devex-review` workflow and actual `gstack-error-capture` executable were used to audit first-run setup and CLI errors. The resulting work added an installable inference SDK, an ordered-feedback JSONL example, causality/parity tests and CI execution outside the source directory. [Usage evidence and scope](provenance/gstack/README.md). GStack is development tooling, not the metrology predictor. GBrain has not been integrated. Transpose Platform is the event organizer/track, not a model runtime dependency.

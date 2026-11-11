@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "reflex-metrology"
+version = "0.1.0"
+description = "Delay-aware virtual metrology research runtime"
+requires-python = ">=3.11"
+dependencies = ["numpy>=2,<3"]
+
+[project.scripts]
+reflex = "reflex_sdk:main"
+
+[tool.setuptools]
+py-modules = ["reflex_sdk", "portable_runtime", "delay_model"]

@@ -15,7 +15,14 @@ class DelayTests(unittest.TestCase):
             for delay in [0,5,20]:
                 for phase in range(5):
                     out=DelayedStream(a,d['X'],d['y'],d['keys'],delay,phase).advance(len(d['y']))
-                    np.testing.assert_allclose([h['prediction'] for h in out['history']],ref[f'delayed_ensemble_d{delay}_p{phase}'],atol=1e-10,rtol=1e-10)
+                    # The exported base predictor explicitly uses float32. ARM
+                    # Accelerate and x86 BLAS reductions differ at that precision;
+                    # float64-level tolerances are not a portable contract.
+                    actual=np.array([h['prediction'] for h in out['history']])
+                    expected=ref[f'delayed_ensemble_d{delay}_p{phase}']
+                    np.testing.assert_allclose(actual,expected,atol=1e-6,rtol=1e-6)
+                    self.assertAlmostEqual(float(np.sqrt(np.mean((actual-d['y'])**2))),
+                                           float(np.sqrt(np.mean((expected-d['y'])**2))),places=6)
                     self.assertEqual(out['queries'],len(np.arange(phase,len(d['y']),5)))
                     self.assertEqual(out['arrived'],len(np.arange(phase,max(len(d['y'])-delay,phase),5)))
 

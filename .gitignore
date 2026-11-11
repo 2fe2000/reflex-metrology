@@ -1,4 +1,7 @@
 .venv/
+build/
+*.egg-info/
+.gstack/
 __pycache__/
 *.pyc
 .DS_Store
@@ -30,3 +33,9 @@ video/edit/**/*.png
 video/edit/**/*.mp4
 video/edit/**/*.wav
 video/edit/**/*.aiff
+# Personal face/voice references and provider receipts stay local.
+video/edit/onsite/sources/
+video/edit/onsite/transcripts/
+video/edit/onsite/receipts/
+video/edit/onsite/*nodes.json
+video/edit/onsite/voice_selection.json

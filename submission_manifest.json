@@ -1,21 +1,21 @@
 {
-  "generated_utc": "2026-11-11T13:50:45.037065+00:00",
+  "generated_utc": "2026-11-11T14:12:00.773990+00:00",
   "note": "SHA-256 of submission files; manifest excludes itself and is anchored by Git commit and CI checkout.",
   "files": [
     {
       "path": ".github/workflows/evidence.yml",
-      "bytes": 1294,
-      "sha256": "87fed27261798377c8ec898edac8f6f9279191f0b4284702a68a1a0b65d6dd28"
+      "bytes": 1716,
+      "sha256": "1b5ee9fd9120da3222c870ffc25e8a1ee1876a51a1c0518e9095594c6c6d4153"
     },
     {
       "path": ".gitignore",
-      "bytes": 573,
-      "sha256": "0d0a7c3e5b5930567bdcca73c73ebf99e8add07b87d730f282516edf5613602c"
+      "bytes": 823,
+      "sha256": "9b9548ce7c3db6fd390ebe69095e0fd6668e61da5255fc5728ee505088fd1532"
     },
     {
       "path": "README.md",
-      "bytes": 9888,
-      "sha256": "189b788132a90a9d71be334185c53d0b1b96004157d726a73a7aaddf9d20f718"
+      "bytes": 11145,
+      "sha256": "a7978f3405a5abee7235b17b225772f5c680bec1274835ae438c2b3321829f4c"
     },
     {
       "path": "README.txt",
@@ -188,6 +188,11 @@
       "sha256": "cca2abd6c27c2180d2e2e1ca3f6bb95b201d1c532f048f9401fa754df5f49469"
     },
     {
+      "path": "docs/SDK.md",
+      "bytes": 4451,
+      "sha256": "e7ef772dac189d5277735416cfb9119bce6e27d96f714d40ba6a041f215dab5f"
+    },
+    {
       "path": "download_data.py",
       "bytes": 1508,
       "sha256": "b347a3faaaf1dcf6b148e32d3d57b7f4b89115ae70428da1e7997810355f228c"
@@ -196,6 +201,11 @@
       "path": "ensemble_benchmark.py",
       "bytes": 4496,
       "sha256": "61958133c07dc0116367b171647060ae9ea5522dc3466c118d760e75af578dd4"
+    },
+    {
+      "path": "examples/events.jsonl",
+      "bytes": 12160,
+      "sha256": "5ceeacdfd44bfeaa4184e833ea3e575aab5842e4ef59b9dc1f56f910969ac18a"
     },
     {
       "path": "hardware_benchmark.py",
@@ -298,6 +308,26 @@
       "sha256": "f6bb393e1a5cacb76ddaadb04367fcf3ca68d566ff99f9ecc8ee31ede7c013f5"
     },
     {
+      "path": "provenance/gstack/README.md",
+      "bytes": 2702,
+      "sha256": "0a388925488d5946b8fe1c497df549edc7a28953d23359da58dbe32cadaa673b"
+    },
+    {
+      "path": "provenance/gstack/clean_install.json",
+      "bytes": 3864,
+      "sha256": "e08d89240e1c998b78764540d2dbe21b2cf0e56ce5d0a351bf2f95eb9e1f6b86"
+    },
+    {
+      "path": "provenance/gstack/cli_help.json",
+      "bytes": 920,
+      "sha256": "6d4a3a3101b9bd191f75916f9bf43889e633e5ade3846e0de6609a63eca9510d"
+    },
+    {
+      "path": "provenance/gstack/cli_invalid_flag.json",
+      "bytes": 756,
+      "sha256": "2c06fbdfe83501c2e1db62fe8d35d5dd055cbd6d1f422304f64172ac8295fdb5"
+    },
+    {
       "path": "provenance/inverse_reproduction.json",
       "bytes": 313,
       "sha256": "54937211a9129dde37867113909c8bd2b6d28a5cd8c3dec91925bac7650272b0"
@@ -306,6 +336,16 @@
       "path": "provenance/verification.json",
       "bytes": 1318,
       "sha256": "e0ec49c1aaa2bdeb5d7fead2e713d96213b938ff8de74069a49745c66e7444ad"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 389,
+      "sha256": "7da2ac6959c3eb8d6d30c1e8db0b69f26f9f1d7cb5dc68058b2156904148add5"
+    },
+    {
+      "path": "reflex_sdk.py",
+      "bytes": 7320,
+      "sha256": "fd94dbd7706fcab3b5532d1ede3bd49595da1de557cc1b5f8fd4fd2dc7ee54d3"
     },
     {
       "path": "regime_benchmark.py",
@@ -759,8 +799,8 @@
     },
     {
       "path": "test_delay_model.py",
-      "bytes": 5552,
-      "sha256": "d2ca2a7d45a45830154bb3c0eb5e0b0e2534f25be017a1f84326c00589e34090"
+      "bytes": 6057,
+      "sha256": "74c9f83bb74d12060d7d658bb83f348866e5bde2113a24755dc9ed6473ec7e99"
     },
     {
       "path": "test_device_surrogate.py",
@@ -771,6 +811,11 @@
       "path": "test_runtime.py",
       "bytes": 1879,
       "sha256": "4cb70c1958cca8b4218810b1c7b4337da96a9fe5bef2447ef812c6275fb334f8"
+    },
+    {
+      "path": "test_sdk.py",
+      "bytes": 2223,
+      "sha256": "221e215fd711a6a42c344f49fd9e5ed5e8ff18b42a5e88e0c1b523c94b974fd3"
     },
     {
       "path": "verify_evidence.py",

@@ -14,9 +14,14 @@ jobs:
         with:
           python-version: '3.11'
       - name: Install portable verification dependencies
-        run: python -m pip install numpy==2.4.6 pandas
+        run: python -m pip install . numpy==2.4.6 pandas
+      - name: Run installed CLI outside the source directory
+        run: |
+          cd /tmp
+          reflex --model "$GITHUB_WORKSPACE/models/reflex_delayed_1.json" --input "$GITHUB_WORKSPACE/examples/events.jsonl" > reflex-output.jsonl
+          python -c 'import json; rows=[json.loads(x) for x in open("reflex-output.jsonl")]; assert len(rows)==14; assert sum("observed_timestamp" in r for r in rows)==2'
       - name: Verify causal inference and reference replays
-        run: python -m unittest -v test_runtime test_delay_model test_device_surrogate
+        run: python -m unittest -v test_runtime test_delay_model test_device_surrogate test_sdk
       - name: Verify result arithmetic and content hashes
         run: python verify_evidence.py
       - name: Record server-side build identity

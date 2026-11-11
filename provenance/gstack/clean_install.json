@@ -1,0 +1,54 @@
+{
+  "environment": "Fresh temporary venv on macOS, public package downloads/cached wheels; not a factory test",
+  "checkout": "/var/folders/6b/4fymsr7x3kd9z5m1rybklyzh0000gn/T/reflex-first-run-wj9rdjr7",
+  "steps": [
+    {
+      "command": [
+        "/Users/2fe/Desktop/DEV/reflex-cmp-research/.venv/bin/python",
+        "-m",
+        "venv",
+        "<clean-checkout>/.venv"
+      ],
+      "seconds": 1.72,
+      "exit_code": 0,
+      "output_tail": ""
+    },
+    {
+      "command": [
+        "<clean-checkout>/.venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        ".",
+        "pandas"
+      ],
+      "seconds": 6.155,
+      "exit_code": 0,
+      "output_tail": " 'done'\nCollecting pandas\n  Using cached pandas-3.1.1-cp311-cp311-macosx_11_0_arm64.whl (11.2 MB)\nCollecting numpy<3,>=2\n  Using cached numpy-2.4.6-cp311-cp311-macosx_14_0_arm64.whl (5.5 MB)\nCollecting python-dateutil>=2.9.0\n  Using cached python_dateutil-4.0.0-py3-none-any.whl (92 kB)\nCollecting tzdata\n  Using cached tzdata-2026.6-py2.py3-none-any.whl (348 kB)\nBuilding wheels for collected packages: reflex-metrology\n  Building wheel for reflex-metrology (pyproject.toml): started\n  Building wheel for reflex-metrology (pyproject.toml): finished with status 'done'\n  Created wheel for reflex-metrology: filename=reflex_metrology-0.1.0-py3-none-any.whl size=9790 sha256=5c75a40ce1cd7c07c7df03937f09d2418de1446db8eb2770b0abea26312cb4fb\n  Stored in directory: /Users/2fe/Library/Caches/pip/wheels/39/4c/37/f4fc3de65baabb2dac7149689c0cd7e118356e7950b3f0b8af\nSuccessfully built reflex-metrology\nInstalling collected packages: tzdata, numpy, reflex-metrology, python-dateutil, pandas\nSuccessfully installed numpy-2.4.6 pandas-3.1.1 python-dateutil-4.0.0 reflex-metrology-0.1.0 tzdata-2026.6\n\n[notice] A new release of pip available: 22.3.1 -> 26.3\n[notice] To update, run: /private/var/folders/6b/4fymsr7x3kd9z5m1rybklyzh0000gn/T/reflex-first-run-wj9rdjr7/.venv/bin/python -m pip install --upgrade pip\n"
+    },
+    {
+      "command": "installed reflex outside checkout",
+      "seconds": 0.772,
+      "exit_code": 0,
+      "output_rows": 14,
+      "predictions": 12,
+      "updates": 2
+    },
+    {
+      "command": [
+        "<clean-checkout>/.venv/bin/python",
+        "-m",
+        "unittest",
+        "-v",
+        "test_runtime",
+        "test_delay_model",
+        "test_device_surrogate",
+        "test_sdk"
+      ],
+      "seconds": 19.214,
+      "exit_code": 0,
+      "output_tail": "redictions) ... ok\ntest_portable_delayed_stream_matches_all_locked_replays (test_delay_model.DelayTests.test_portable_delayed_stream_matches_all_locked_replays) ... ok\ntest_regime_memory_bounded_and_extreme_updates_finite (test_delay_model.DelayTests.test_regime_memory_bounded_and_extreme_updates_finite) ... ok\ntest_regime_posterior_matches_exhaustive_segmentation (test_delay_model.DelayTests.test_regime_posterior_matches_exhaustive_segmentation) ... ok\ntest_unrequested_labels_cannot_change_predictions (test_delay_model.DelayTests.test_unrequested_labels_cannot_change_predictions) ... ok\ntest_exported_posterior_matches_independent_sklearn_evaluation (test_device_surrogate.DeviceTests.test_exported_posterior_matches_independent_sklearn_evaluation) ... ok\ntest_rejects_invalid_or_extrapolating_inputs (test_device_surrogate.DeviceTests.test_rejects_invalid_or_extrapolating_inputs) ... ok\ntest_invalid_feedback_does_not_consume_request (test_sdk.SDKTest.test_invalid_feedback_does_not_consume_request) ... ok\ntest_saved_stream_equivalence (test_sdk.SDKTest.test_saved_stream_equivalence) ... ok\ntest_shape_order_and_bounded_buffer (test_sdk.SDKTest.test_shape_order_and_bounded_buffer) ... ok\n\n----------------------------------------------------------------------\nRan 15 tests in 3.068s\n\nOK\n"
+    }
+  ],
+  "total_seconds": 27.860999999999997
+}
