@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T14:40:32.616280+00:00",
+  "generated_utc": "2026-11-11T14:52:11.745333+00:00",
   "note": "SHA-256 of submission files; manifest excludes itself and is anchored by Git commit and CI checkout.",
   "files": [
     {
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11141,
-      "sha256": "b209598f8e4ceb7d06a77149523130dfc2ad02420003f0f80eeddc152c804cd7"
+      "bytes": 11123,
+      "sha256": "d762bed247374e7892096a6f4ff9c1ba9d369293af787764bb543dc1bdec870e"
     },
     {
       "path": "README.txt",
@@ -928,6 +928,11 @@
       "sha256": "7d062e89a7d9c5494bc20640cac57155037763b54a56f56abe94780650606c2c"
     },
     {
+      "path": "video/edit/onsite/assemble_polished.py",
+      "bytes": 3469,
+      "sha256": "4bd8a9dab14a66b9ceebe1958d86f73babe128459154b4283927f02b82da6ffe"
+    },
+    {
       "path": "video/edit/onsite/english_narration.json",
       "bytes": 1438,
       "sha256": "6c88912e0ece2abab158707b5ced5fda585009aee757f60263ea6a5c5babcee8"
@@ -961,6 +966,26 @@
       "path": "video/edit/onsite/overlays/evidence/render.py",
       "bytes": 5725,
       "sha256": "f28906fe0b49fe0f4e092dcaa8d2de3c7282dac3d007b5e2ecc037332be5e48c"
+    },
+    {
+      "path": "video/edit/onsite/overlays/evidence_v2/curve_data.json",
+      "bytes": 3142,
+      "sha256": "9f6065adcbc94d8c432418499bdd542d1c355f0a536d20553505944d1057ab9d"
+    },
+    {
+      "path": "video/edit/onsite/overlays/evidence_v2/render.py",
+      "bytes": 5796,
+      "sha256": "8165ef1c7330d2b25bb86d80cb3221402f07037de889676173f62f518cf907df"
+    },
+    {
+      "path": "video/edit/onsite/overlays/pain_v2/render.py",
+      "bytes": 2442,
+      "sha256": "07f26963c70de1a5938838d04e44c7873b4025d351af8b88c4caa5cd58c79178"
+    },
+    {
+      "path": "video/edit/onsite/overlays/pain_v2/verification.json",
+      "bytes": 279,
+      "sha256": "13f1e778f5d15696ea99518c651f180f3b7c5356fa472bd57418b00e4a064b68"
     },
     {
       "path": "video/edit/onsite/transcribe_generated.py",

@@ -1,0 +1,17 @@
+{
+  "programs": [],
+  "stream_groups": [],
+  "streams": [
+    {
+      "codec_name": "qtrle",
+      "width": 1920,
+      "height": 1080,
+      "pix_fmt": "argb",
+      "r_frame_rate": "24/1",
+      "nb_read_frames": "120"
+    }
+  ],
+  "format": {
+    "duration": "5.000000"
+  }
+}
