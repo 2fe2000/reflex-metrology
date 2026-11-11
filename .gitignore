@@ -39,3 +39,7 @@ video/edit/onsite/transcripts/
 video/edit/onsite/receipts/
 video/edit/onsite/*nodes.json
 video/edit/onsite/voice_selection.json
+video/edit/onsite/**/*.mov
+
+video/edit/onsite/**/concat.txt
+video/edit/onsite/**/ffprobe.json

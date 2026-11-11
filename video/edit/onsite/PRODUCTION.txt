@@ -1,0 +1,13 @@
+REFLEX — Semiconductor Process Intelligence
+Team: doublezero
+Participant: Ichel Park (solo)
+
+90 seconds, 1920x1080, 24 fps, English captions.
+Shoty Seedance 2.5 generated process/presenter visualizations using authorized founder references. Actual public-data inference replay occupies the middle 30 seconds. Benchmark graphics derive from repository results.
+
+18.8% refers to large prediction error frequency for Dataset 1, 20% measurement rate, delay 5, mean over all five offsets. Average RMSE improvement across four delayed settings is about 1.0%.
+97.2% refers to target mismatch in a separate DEVSIM silicon diode simulation, GP expected improvement versus random, five paired seeds, 32 queries. Neither number is measured factory yield.
+
+MiniMax H3 Max backup clips were also generated; main submission uses Seedance. No ElevenLabs voice clone was registered. Personal source references and generation receipts are excluded from Git.
+
+Rendering and word timing scripts are included. Personal reference files and generated media are not needed to run the REFLEX inference SDK.

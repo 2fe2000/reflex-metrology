@@ -1,4 +1,4 @@
-# REFLEX — adapt while measurements are in flight
+# REFLEX — Semiconductor Process Intelligence
 
 **A local, delay-aware virtual-metrology research prototype for semiconductor manufacturing.** Process results arrive after subsequent samples have already run. REFLEX stores the original prediction and timestamp, then updates a small ensemble only when the corresponding measurement arrives.
 

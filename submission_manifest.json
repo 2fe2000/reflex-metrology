@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-11-11T14:12:00.773990+00:00",
+  "generated_utc": "2026-11-11T14:36:29.146446+00:00",
   "note": "SHA-256 of submission files; manifest excludes itself and is anchored by Git commit and CI checkout.",
   "files": [
     {
@@ -9,13 +9,13 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 823,
-      "sha256": "9b9548ce7c3db6fd390ebe69095e0fd6668e61da5255fc5728ee505088fd1532"
+      "bytes": 917,
+      "sha256": "7bc3c08aebc5afe0716bedbf68e35fbfe8a23a1a3f55f39c3f2f258f87d9dc4e"
     },
     {
       "path": "README.md",
-      "bytes": 11145,
-      "sha256": "a7978f3405a5abee7235b17b225772f5c680bec1274835ae438c2b3321829f4c"
+      "bytes": 11141,
+      "sha256": "b209598f8e4ceb7d06a77149523130dfc2ad02420003f0f80eeddc152c804cd7"
     },
     {
       "path": "README.txt",
@@ -918,6 +918,51 @@
       "sha256": "0d218a261528c0f2486eb542a2e3566731fc4772ad2ac7ec236067f7cdda7154"
     },
     {
+      "path": "video/edit/onsite/PRODUCTION.txt",
+      "bytes": 1085,
+      "sha256": "e7d17b6cb466bbb36eb8e611ae2ec03855e75f44b89c000e1c0d7ad984ad7df1"
+    },
+    {
+      "path": "video/edit/onsite/assemble.py",
+      "bytes": 4790,
+      "sha256": "7d062e89a7d9c5494bc20640cac57155037763b54a56f56abe94780650606c2c"
+    },
+    {
+      "path": "video/edit/onsite/english_narration.json",
+      "bytes": 1438,
+      "sha256": "6c88912e0ece2abab158707b5ced5fda585009aee757f60263ea6a5c5babcee8"
+    },
+    {
+      "path": "video/edit/onsite/h3_narration.json",
+      "bytes": 1397,
+      "sha256": "ccf2c2612f272d73e6c161c6a9e023518da7d3a7ffdcb35b4e133343be623a59"
+    },
+    {
+      "path": "video/edit/onsite/overlays/demo/render.py",
+      "bytes": 3801,
+      "sha256": "bc46614cbfb5e53a029f31a4f034b16859cd06e6ed29d593547049f9ede90427"
+    },
+    {
+      "path": "video/edit/onsite/overlays/demo/verification.json",
+      "bytes": 282,
+      "sha256": "6c59cb511a7d31e0e5094c7ad46a4fead7b2e26572234e006d97aa471f888bf2"
+    },
+    {
+      "path": "video/edit/onsite/overlays/evidence/curve_data.json",
+      "bytes": 3142,
+      "sha256": "9f6065adcbc94d8c432418499bdd542d1c355f0a536d20553505944d1057ab9d"
+    },
+    {
+      "path": "video/edit/onsite/overlays/evidence/render.py",
+      "bytes": 5725,
+      "sha256": "f28906fe0b49fe0f4e092dcaa8d2de3c7282dac3d007b5e2ecc037332be5e48c"
+    },
+    {
+      "path": "video/edit/onsite/transcribe_generated.py",
+      "bytes": 1915,
+      "sha256": "ea8b02da41b9f58c2d08851337dc6ff78cf979e943a3392389bd263b9312ad57"
+    },
+    {
       "path": "video/edit/render_captions.py",
       "bytes": 1436,
       "sha256": "1b6a26925f3fe0f1b98bc002edcba107c818509bcaf2669747207d9aa8700feb"
@@ -994,8 +1039,8 @@
     },
     {
       "path": "web/delay.html",
-      "bytes": 11271,
-      "sha256": "32f7672760e585ec58e127ad8381687c91cb86c829f833e62155a4268037e122"
+      "bytes": 11303,
+      "sha256": "89f83f9de477b51793ee9f9bc619fd6178d269ececa103ba4a8c09d51d66bfd4"
     },
     {
       "path": "web/index.html",

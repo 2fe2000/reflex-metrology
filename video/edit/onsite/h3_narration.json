@@ -1,0 +1,26 @@
+[
+  [
+    "opening_a",
+    "The wafer doesn’t wait for the measurement. Neither should the model. Hi, I’m Ichel, an engineer from Korea researching semiconductor manufacturing. This is REFLEX."
+  ],
+  [
+    "opening_b",
+    "A wafer moves through the process, but its quality measurement arrives later. Our model predicts now, then learns from delayed measurements without confusing the past with the present. Watch what happens when that feedback arrives."
+  ],
+  [
+    "demo_a",
+    "This is a replay of public process data. We measure one wafer in five, with feedback delayed by five steps. REFLEX remembers each prediction and updates three experts only when the matching measurement arrives."
+  ],
+  [
+    "demo_b",
+    "On this dataset, large errors fell eighteen point eight percent against GRAPE. That is prediction error, not measured factory yield. The code and model are runnable from our repository."
+  ],
+  [
+    "evidence_a",
+    "Across all four delayed settings, average prediction error improved about one percent. Our next experiment goes beyond prediction. In a silicon diode simulator, active search reduced target mismatch by ninety seven percent versus random search."
+  ],
+  [
+    "evidence_b",
+    "That is a simulation, not a better chip yet. Our ambition is a learning loop: predict the process, choose the next experiment, and improve the next design. REFLEX."
+  ]
+]
