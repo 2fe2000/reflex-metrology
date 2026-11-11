@@ -1,0 +1,125 @@
+theme:
+  style: doublezero
+  accent: 2563EB
+footer: REFLEX · Delayed-metrology research · 11 Nov 2026
+slides:
+- layout: title
+  kicker: DELAYED METROLOGY
+  title: Keep adapting.
+  subtitle: 'REFLEX
+
+    Local calibration while measurements are in flight.'
+  footer: Public semiconductor data · Exploratory evaluation · DoubleZero
+- layout: two_col
+  kicker: THE NARROW INDUSTRIAL PROBLEM
+  title: A label describes a past process state.
+  columns:
+  - heading: First deployment hypothesis
+    bullets:
+    - One semiconductor equipment family, one quality target
+    - Known sample and measurement-arrival timestamps
+    - Shadow evaluation before production decisions
+  - heading: The model must distinguish
+    bullets:
+    - Persistent drift from transient measurement noise
+    - Source time from arrival time
+    - A useful correction from an unreliable one
+- layout: steps
+  kicker: IMPLEMENTED LOCALLY
+  title: Learn only from measurements that arrived.
+  steps:
+  - title: Retain time
+    desc: Store the original sample timestamp and predictions.
+  - title: Update states
+    desc: Maintain GRAPE, Kalman and Bayesian regime models.
+  - title: Weight evidence
+    desc: Update model weights using arrived-label errors.
+  note: Fixed every-fifth sampling. 32 regime hypotheses max. No future-label oracle.
+- layout: compare
+  kicker: DATASET 1 · FIVE-SAMPLE DELAY
+  title: 12.05% lower P90 error.
+  columns:
+  - Metric
+  - Delayed GRAPE
+  - REFLEX ensemble
+  - Difference
+  rows:
+  - metric: Requests / 542 samples
+    before: 108 or 109
+    after: Same schedule
+    effect: Equal budget
+  - metric: Mean RMSE
+    before: '0.3257'
+    after: '0.3142'
+    effect: 3.53% lower
+  - metric: Mean P90 absolute error
+    before: '0.3958'
+    after: '0.3481'
+    effect: 12.05% lower
+  note: 'Five offsets. P90 conditional 95% block interval: 1.78–18.80%. Exploratory,
+    not a fresh blind test.'
+- layout: compare
+  kicker: ALL DELAYED CONDITIONS · POSITIVE = IMPROVEMENT
+  title: The 10% RMSE target is still unmet.
+  columns:
+  - Dataset / delay
+  - RMSE change
+  - P90 change
+  - Assessment
+  rows:
+  - metric: 1 / 5 samples
+    before: +3.53%
+    after: +12.05%
+    effect: Strongest tail result
+  - metric: 1 / 20 samples
+    before: −0.12%
+    after: +7.61%
+    effect: RMSE regresses
+  - metric: 2 / 5 samples
+    before: +0.52%
+    after: +0.55%
+    effect: Small change
+  - metric: 2 / 20 samples
+    before: +0.20%
+    after: +0.07%
+    effect: Uncertain change
+  note: 'Mean RMSE improvement: 1.03%. Repeatedly inspected data; intervals do not
+    correct selection bias.'
+- layout: stat
+  kicker: MEASURED CPU EXECUTION
+  title: A compact model beside the equipment.
+  stats:
+  - value: 4.3 KiB
+    label: Dataset 1 artifact
+  - value: 33.6 KiB
+    label: Dataset 2 artifact
+  - value: 0.084 ms
+    label: M5 Pro Dataset 2 step p95
+  subtitle: Step includes both candidate and baseline plus arrived-label updates;
+    excludes sensors and instruments.
+- layout: cards
+  kicker: COMMERCIAL HYPOTHESES · NO VALIDATED PRICING
+  title: Sell a measured validation outcome.
+  cards:
+  - heading: Paid pilot
+    body: 'KRW 5–10 million
+
+      Fresh timestamped stream. Fixed measurement budget.'
+  - heading: Integration
+    body: 'KRW 20–50 million
+
+      Local runtime. Traceable model updates.'
+  - heading: Scale path
+    body: 'Equipment/OEM licensing
+
+      Only after repeatable field value.'
+  note: 'Potential moat: permitted process-transition data and reusable adapters.
+    Not established yet.'
+- layout: closing
+  title: One fresh process. One honest proof.
+  subtitle: 'Seeking a semiconductor process-data partner.
+
+    Validate real delays, large errors and engineering time.'
+  contact: 'GRAPE: arxiv.org/abs/2611.00806
+
+    Merging inspiration: arxiv.org/abs/2611.03230'

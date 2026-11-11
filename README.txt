@@ -1,3 +1,33 @@
+LATEST: DELAYED-METROLOGY MODEL (V7)
+===================================
+Run the same server, then open http://127.0.0.1:8765/delay.html
+Latest review: deliverables/REFLEX_delay_report.html
+Latest video / deck: REFLEX_delay_90s.mp4 and REFLEX_delay_pitch.pptx / .pdf
+
+Actual result, equal every-fifth measurement schedule, mean over five offsets:
+Dataset1 / delay5: RMSE 3.53% lower; P90 absolute error 12.05% lower.
+Dataset1 / delay20: RMSE 0.12% worse; P90 7.61% lower.
+Dataset2 / delays5,20: RMSE 0.52%, 0.20% lower respectively.
+The predefined 10% mean RMSE improvement gate FAILED (observed 1.03%).
+P90 Dataset1/delay5 conditional95% interval: 1.78 to18.80% improvement.
+Repeatedly inspected evaluation data; intervals do NOT correct selection bias.
+All failed v4/v5/v6 revisions and development choices are preserved.
+
+The model combines GRAPE, timestamped Kalman residuals, and a Gaussian Bayesian
+regime model, with weights updated from originally saved predictions only after
+requested labels arrive. Max32 regime hypotheses; not constant total UI memory.
+Supports the tested fixed delays and ordered arrivals; variable/out-of-order
+feedback and factory wall-clock latency have not been validated.
+
+New test suite (research dependencies): python3 test_delay_model.py
+Portable execution (NumPy only): python3 hardware_delayed.py
+Full isolated v4-v7 rerun: python3 reproduce_delayed.py
+Sources: Adams & MacKay arxiv.org/abs/0710.3742;
+posterior-merging inspiration: arxiv.org/abs/2611.03230 (not full Bagel reproduction).
+No novel-algorithm or production-qualification claim.
+
+PREVIOUS IMMEDIATE-FEEDBACK VERSION (PRESERVED)
+==============================================
 REFLEX — adaptive metrology research prototype
 =============================================
 

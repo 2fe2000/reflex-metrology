@@ -22,3 +22,11 @@ video/edit/*.wav
 deliverables/*.zip
 deliverables/*.mp4
 *.log
+video/edit/**/audio/
+video/edit/**/captions/
+video/edit/**/clips/
+video/edit/**/verify/
+video/edit/**/*.png
+video/edit/**/*.mp4
+video/edit/**/*.wav
+video/edit/**/*.aiff

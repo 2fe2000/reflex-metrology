@@ -1,0 +1,100 @@
+{
+  "dataset": 1,
+  "spec": {
+    "indices": [
+      26,
+      44,
+      46,
+      48,
+      41,
+      36,
+      35,
+      17,
+      31,
+      40,
+      37,
+      49,
+      3,
+      4,
+      47,
+      45,
+      43,
+      24,
+      0,
+      27,
+      38,
+      20,
+      42,
+      1,
+      28,
+      22,
+      39,
+      29,
+      2,
+      15,
+      5,
+      7,
+      8,
+      9,
+      23,
+      6,
+      11,
+      13,
+      19,
+      32,
+      14,
+      12,
+      10,
+      25,
+      16,
+      21,
+      34,
+      33,
+      18,
+      30
+    ],
+    "contexts": [
+      "id_1398b376fdcc_id_6b86b273ff34",
+      "id_1398b376fdcc_id_d4735e3a265e",
+      "id_1398b376fdcc_id_e7f6c011776e",
+      "id_724f7bdf7e74_id_6b86b273ff34",
+      "id_724f7bdf7e74_id_d4735e3a265e",
+      "id_724f7bdf7e74_id_e7f6c011776e",
+      "id_724f7bdf7e74_id_ef2d127de37b",
+      "id_c8361f9b468e_id_6b86b273ff34",
+      "id_c8361f9b468e_id_d4735e3a265e",
+      "id_c8361f9b468e_id_e7f6c011776e",
+      "id_c8361f9b468e_id_ef2d127de37b",
+      "id_ea644b359f0b_id_6b86b273ff34",
+      "id_ea644b359f0b_id_d4735e3a265e",
+      "id_ea644b359f0b_id_e7f6c011776e",
+      "id_ea644b359f0b_id_ef2d127de37b"
+    ]
+  },
+  "selected": {
+    "config": {
+      "temperature": 16.0,
+      "share": 0.01
+    },
+    "score": 0.9806782987066986,
+    "original_ratio": 0.9605667053067434,
+    "ordinary_guard_pass": true
+  },
+  "experts": {
+    "kalman": {
+      "dim": 0,
+      "context": false,
+      "q": 0.001,
+      "trend": false,
+      "prior": 1.0
+    },
+    "regime": {
+      "hazard": 0.05,
+      "noise_multiplier": 1.5,
+      "prior_width": 4.0,
+      "noise_std": 0.1351322596705434
+    }
+  },
+  "protocol_sha256": "81b6931d76b40533aab3007d0f6e64352460e2c4d47a7e5de919c5927b8def9f",
+  "locked_at": 1794402391.58571
+}

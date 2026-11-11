@@ -1,0 +1,32 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 2
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Pretendard,28,&H00FFFFFF,&H00FFFFFF,&H0017202B,&H0017202B,0,0,0,0,100,100,0,0,1,0,0,2,80,80,15,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:04.43,Default,,0,0,0,,Semiconductor measurements often arrive after the next samples have already run.
+Dialogue: 0,0:00:06.65,0:00:10.78,Default,,0,0,0,,REFLEX keeps a small local model adapting while those results are in flight.
+Dialogue: 0,0:00:13.00,0:00:15.78,Default,,0,0,0,,This is a research prototype built on public data.
+Dialogue: 0,0:00:18.00,0:00:21.34,Default,,0,0,0,,This is real local inference, accelerated for the video.
+Dialogue: 0,0:00:23.14,0:00:27.00,Default,,0,0,0,,We request every fifth sample and delay each result by five samples.
+Dialogue: 0,0:00:28.80,0:00:31.88,Default,,0,0,0,,Both models receive the same measurements at the same time.
+Dialogue: 0,0:00:33.67,0:00:36.49,Default,,0,0,0,,A delayed result retains its original timestamp.
+Dialogue: 0,0:00:38.28,0:00:40.21,Default,,0,0,0,,No future labels enter the model.
+Dialogue: 0,0:00:42.00,0:00:46.69,Default,,0,0,0,,Three experts handle ordinary behavior, slow drift, and regime changes.
+Dialogue: 0,0:00:47.54,0:00:50.60,Default,,0,0,0,,Their weights learn only from errors whose measurements have arrived.
+Dialogue: 0,0:00:51.45,0:00:53.15,Default,,0,0,0,,Regime memory stays bounded.
+Dialogue: 0,0:00:54.00,0:00:58.37,Default,,0,0,0,,We tested two datasets, three delays, and five sampling offsets.
+Dialogue: 0,0:00:59.84,0:01:04.52,Default,,0,0,0,,The complete comparison reports all four delayed conditions, including the regression.
+Dialogue: 0,0:01:06.00,0:01:13.11,Default,,0,0,0,,On dataset one with a five sample delay, the ensemble lowered P ninety error by twelve percent at the\Nsame measurement budget.
+Dialogue: 0,0:01:14.00,0:01:17.06,Default,,0,0,0,,Average root mean square error improved just one percent.
+Dialogue: 0,0:01:17.39,0:01:19.42,Default,,0,0,0,,Our ten percent target was not met.
+Dialogue: 0,0:01:19.75,0:01:21.67,Default,,0,0,0,,These are exploratory results.
+Dialogue: 0,0:01:22.00,0:01:27.05,Default,,0,0,0,,We are seeking a semiconductor process partner to validate on a fresh stream, with real metrology\Ntimestamps.
+Dialogue: 0,0:01:27.35,0:01:27.93,Default,,0,0,0,,REFLEX.
+Dialogue: 0,0:01:28.23,0:01:29.70,Default,,0,0,0,,Adapt while measurements are in flight.

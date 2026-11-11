@@ -1,0 +1,44 @@
+{
+  "created_utc": "2026-11-11T13:03:27.315246+00:00",
+  "name": "Bayesian regime posterior for delayed residual measurements",
+  "status": "Exploratory follow-up on previously inspected public unseen splits; not a fresh blind test",
+  "fit": "Original train only; retain exported feature order and base model",
+  "selection": "Only original valid+test and same predefined synthetic shifts as v5, delays5/20 phases0/2. Bayesian online changepoint configurations hazard per measurement [.002,.01,.05], observation-noise multipliers [1,1.5,2], reset prior width [4,16]. Prefer original-development RMSE ratio vs GRAPE <=1.02; select mean scenario ratio. All candidates saved.",
+  "evaluation": {
+    "splits": [
+      "unseen"
+    ],
+    "delays": [
+      0,
+      5,
+      20
+    ],
+    "request_period": 5,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "compare": [
+      "original_grape",
+      "v5_development_tuned_reset_ema",
+      "bayesian_regime"
+    ],
+    "metrics": [
+      "RMSE",
+      "P90 absolute error",
+      "number requested",
+      "number arrived"
+    ],
+    "primary": "mean relative RMSE improvement over original GRAPE for delays 5 and 20 across both datasets and all phases >=10%, no dataset-delay mean regression >2%, P90 regression <=5%",
+    "simple_baseline_gate": "mean RMSE improvement vs reset EMA >=5%, both datasets non-worse at delays5/20",
+    "uncertainty": "5000 paired moving-block bootstrap, length50, shared sampled time blocks across phases; no independent-seed claims",
+    "causality": "Labels unavailable until requested and timestamp+delay reached. Own prediction always precedes own label. All methods have identical query schedule. No future covariates supplied to models.",
+    "limits": "Sample delay is an imposed stress test, not measured manufacturing wall time; no manufacturing cost/safety/novelty claim."
+  },
+  "prior_evidence": "v4 and v5 preserved. v5 improved dataset1 but regressed on dataset2. Exploratory sequential model development, not independent confirmation.",
+  "source": "Adams & MacKay, Bayesian Online Changepoint Detection, arXiv:0710.3742; Gaussian known-noise conjugate implementation, not a claimed new algorithm",
+  "approximation": "At most32 Gaussian components; moment-match adjacent components minimizing probability-weighted KL loss. Inspired by Bagel arXiv2611.03230, not a full reproduction. Fixed before development."
+}

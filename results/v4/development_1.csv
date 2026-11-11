@@ -1,0 +1,84 @@
+method,candidate,config,score
+ema,0,"{""rate"": 0.02}",0.1538014251370403
+ema,1,"{""rate"": 0.05}",0.15516273006211173
+ema,2,"{""rate"": 0.1}",0.15710296686506653
+ema,3,"{""rate"": 0.2}",0.16055914865525858
+ema,4,"{""rate"": 0.4}",0.16980526554543285
+ema,5,"{""rate"": 0.7}",0.18965211297454343
+ema,6,"{""rate"": 1.0}",0.22003513236563219
+rls,0,"{""dim"": 0, ""context"": false, ""forget"": 0.99, ""prior"": 0.1}",0.15635504125452673
+rls,1,"{""dim"": 0, ""context"": false, ""forget"": 0.99, ""prior"": 1.0}",0.16214089638334692
+rls,2,"{""dim"": 0, ""context"": false, ""forget"": 0.999, ""prior"": 0.1}",0.15596252726123208
+rls,3,"{""dim"": 0, ""context"": false, ""forget"": 0.999, ""prior"": 1.0}",0.1621931500346565
+rls,4,"{""dim"": 0, ""context"": false, ""forget"": 1.0, ""prior"": 0.1}",0.15591705336775422
+rls,5,"{""dim"": 0, ""context"": false, ""forget"": 1.0, ""prior"": 1.0}",0.16219661469440863
+rls,6,"{""dim"": 0, ""context"": true, ""forget"": 0.99, ""prior"": 0.1}",0.1565912688588966
+rls,7,"{""dim"": 0, ""context"": true, ""forget"": 0.99, ""prior"": 1.0}",0.16499947826712844
+rls,8,"{""dim"": 0, ""context"": true, ""forget"": 0.999, ""prior"": 0.1}",0.1561746594152815
+rls,9,"{""dim"": 0, ""context"": true, ""forget"": 0.999, ""prior"": 1.0}",0.16428608338426226
+rls,10,"{""dim"": 0, ""context"": true, ""forget"": 1.0, ""prior"": 0.1}",0.15612662828482068
+rls,11,"{""dim"": 0, ""context"": true, ""forget"": 1.0, ""prior"": 1.0}",0.16422771221347443
+rls,12,"{""dim"": 4, ""context"": false, ""forget"": 0.99, ""prior"": 0.1}",0.1593603633095767
+rls,13,"{""dim"": 4, ""context"": false, ""forget"": 0.99, ""prior"": 1.0}",0.17001217598385684
+rls,14,"{""dim"": 4, ""context"": false, ""forget"": 0.999, ""prior"": 0.1}",0.15774840513794278
+rls,15,"{""dim"": 4, ""context"": false, ""forget"": 0.999, ""prior"": 1.0}",0.16836912291090023
+rls,16,"{""dim"": 4, ""context"": false, ""forget"": 1.0, ""prior"": 0.1}",0.15761299228474324
+rls,17,"{""dim"": 4, ""context"": false, ""forget"": 1.0, ""prior"": 1.0}",0.16824097766891977
+rls,18,"{""dim"": 4, ""context"": true, ""forget"": 0.99, ""prior"": 0.1}",0.1594116557226403
+rls,19,"{""dim"": 4, ""context"": true, ""forget"": 0.99, ""prior"": 1.0}",0.16979091325026133
+rls,20,"{""dim"": 4, ""context"": true, ""forget"": 0.999, ""prior"": 0.1}",0.1578830663374249
+rls,21,"{""dim"": 4, ""context"": true, ""forget"": 0.999, ""prior"": 1.0}",0.1680559942539702
+rls,22,"{""dim"": 4, ""context"": true, ""forget"": 1.0, ""prior"": 0.1}",0.1577509253650786
+rls,23,"{""dim"": 4, ""context"": true, ""forget"": 1.0, ""prior"": 1.0}",0.1679176882575515
+rls,24,"{""dim"": 12, ""context"": false, ""forget"": 0.99, ""prior"": 0.1}",0.15801987924595817
+rls,25,"{""dim"": 12, ""context"": false, ""forget"": 0.99, ""prior"": 1.0}",0.17499184240263674
+rls,26,"{""dim"": 12, ""context"": false, ""forget"": 0.999, ""prior"": 0.1}",0.15754814916183937
+rls,27,"{""dim"": 12, ""context"": false, ""forget"": 0.999, ""prior"": 1.0}",0.17189313402906048
+rls,28,"{""dim"": 12, ""context"": false, ""forget"": 1.0, ""prior"": 0.1}",0.15752829370872565
+rls,29,"{""dim"": 12, ""context"": false, ""forget"": 1.0, ""prior"": 1.0}",0.17170837583517037
+rls,30,"{""dim"": 12, ""context"": true, ""forget"": 0.99, ""prior"": 0.1}",0.15822902359125302
+rls,31,"{""dim"": 12, ""context"": true, ""forget"": 0.99, ""prior"": 1.0}",0.17449747655546602
+rls,32,"{""dim"": 12, ""context"": true, ""forget"": 0.999, ""prior"": 0.1}",0.15772188916546592
+rls,33,"{""dim"": 12, ""context"": true, ""forget"": 0.999, ""prior"": 1.0}",0.1717097522641052
+rls,34,"{""dim"": 12, ""context"": true, ""forget"": 1.0, ""prior"": 0.1}",0.15769703047442285
+rls,35,"{""dim"": 12, ""context"": true, ""forget"": 1.0, ""prior"": 1.0}",0.17152306133789333
+timestamped,0,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.16214310493898285
+timestamped,1,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.16278784423613954
+timestamped,2,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.16190953491384238
+timestamped,3,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.1626789421916309
+timestamped,4,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.16356055049554505
+timestamped,5,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.16959086240400276
+timestamped,6,"{""dim"": 0, ""context"": false, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.17598502877054825
+timestamped,7,"{""dim"": 0, ""context"": false, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",0.19454934528644638
+timestamped,8,"{""dim"": 0, ""context"": false, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",0.2024106024475313
+timestamped,9,"{""dim"": 0, ""context"": false, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",0.2374407608845195
+timestamped,10,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.16417991913223748
+timestamped,11,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.16482219703068987
+timestamped,12,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.1639615608418772
+timestamped,13,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.1647740152595679
+timestamped,14,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.16548967252607327
+timestamped,15,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.17139904138576104
+timestamped,16,"{""dim"": 0, ""context"": true, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.17649914354118681
+timestamped,17,"{""dim"": 0, ""context"": true, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",0.19381529042207538
+timestamped,18,"{""dim"": 0, ""context"": true, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",0.20011846602649142
+timestamped,19,"{""dim"": 0, ""context"": true, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",0.23337017214319342
+timestamped,20,"{""dim"": 4, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.16823232554120734
+timestamped,21,"{""dim"": 4, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.16756736824957422
+timestamped,22,"{""dim"": 4, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.16823173441786335
+timestamped,23,"{""dim"": 4, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.16815989491365146
+timestamped,24,"{""dim"": 4, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.1696059315178431
+timestamped,25,"{""dim"": 4, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.1748477276440137
+timestamped,26,"{""dim"": 4, ""context"": false, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.18018367961173845
+timestamped,27,"{""dim"": 4, ""context"": false, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",0.19814508035682651
+timestamped,28,"{""dim"": 4, ""context"": false, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",0.2048781871550488
+timestamped,29,"{""dim"": 4, ""context"": false, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",0.23739029269787523
+timestamped,30,"{""dim"": 4, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.1679063884708881
+timestamped,31,"{""dim"": 4, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.1674623696766674
+timestamped,32,"{""dim"": 4, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.16788365724447374
+timestamped,33,"{""dim"": 4, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.16796027698634075
+timestamped,34,"{""dim"": 4, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.16919128021073238
+timestamped,35,"{""dim"": 4, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.17443529319328765
+timestamped,36,"{""dim"": 4, ""context"": true, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.17919276100658765
+timestamped,37,"{""dim"": 4, ""context"": true, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",0.19622112858936544
+timestamped,38,"{""dim"": 4, ""context"": true, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",0.2024484134792325
+timestamped,39,"{""dim"": 4, ""context"": true, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",0.2339220018314873

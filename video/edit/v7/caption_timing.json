@@ -1,0 +1,102 @@
+[
+  {
+    "start": 0.0,
+    "end": 4.426259,
+    "text": "Semiconductor measurements often arrive after the next samples have already run."
+  },
+  {
+    "start": 6.650249666666667,
+    "end": 10.778866666666667,
+    "text": "REFLEX keeps a small local model adapting while those results are in flight."
+  },
+  {
+    "start": 13.002857333333335,
+    "end": 15.776009333333334,
+    "text": "This is a research prototype built on public data."
+  },
+  {
+    "start": 18.0,
+    "end": 21.341859,
+    "text": "This is real local inference, accelerated for the video."
+  },
+  {
+    "start": 23.1355824,
+    "end": 27.004017400000002,
+    "text": "We request every fifth sample and delay each result by five samples."
+  },
+  {
+    "start": 28.7977408,
+    "end": 31.8786478,
+    "text": "Both models receive the same measurements at the same time."
+  },
+  {
+    "start": 33.6723712,
+    "end": 36.4902852,
+    "text": "A delayed result retains its original timestamp."
+  },
+  {
+    "start": 38.2840086,
+    "end": 40.2062766,
+    "text": "No future labels enter the model."
+  },
+  {
+    "start": 42.0,
+    "end": 46.691837,
+    "text": "Three experts handle ordinary behavior, slow drift, and regime changes."
+  },
+  {
+    "start": 47.54314466666666,
+    "end": 50.59502666666666,
+    "text": "Their weights learn only from errors whose measurements have arrived."
+  },
+  {
+    "start": 51.44633433333333,
+    "end": 53.14869233333333,
+    "text": "Regime memory stays bounded."
+  },
+  {
+    "start": 54.0,
+    "end": 58.367619,
+    "text": "We tested two datasets, three delays, and five sampling offsets."
+  },
+  {
+    "start": 59.8441725,
+    "end": 64.5234465,
+    "text": "The complete comparison reports all four delayed conditions, including the regression."
+  },
+  {
+    "start": 66.0,
+    "end": 73.111519,
+    "text": "On dataset one with a five sample delay, the ensemble lowered P ninety error by twelve percent at the same measurement budget."
+  },
+  {
+    "start": 74.0,
+    "end": 77.061678,
+    "text": "Average root mean square error improved just one percent."
+  },
+  {
+    "start": 77.39375633333333,
+    "end": 79.42196533333333,
+    "text": "Our ten percent target was not met."
+  },
+  {
+    "start": 79.75404366666666,
+    "end": 81.66792166666666,
+    "text": "These are exploratory results."
+  },
+  {
+    "start": 82.0,
+    "end": 87.05347789413445,
+    "text": "We are seeking a semiconductor process partner to validate on a fresh stream, with real metrology timestamps."
+  },
+  {
+    "start": 87.35347789413444,
+    "end": 87.93393276737847,
+    "text": "REFLEX."
+  },
+  {
+    "start": 88.23393276737846,
+    "end": 89.69999999999999,
+    "text": "Adapt while measurements are in flight."
+  }
+]

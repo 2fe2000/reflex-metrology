@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-11T12:58:51.302930+00:00",
+  "name": "Timestamped residual-state prediction under delayed sparse metrology",
+  "status": "Exploratory follow-up on previously inspected public unseen splits; not a fresh blind test",
+  "fit": "Original train only; retain exported feature order and base model",
+  "selection": "Only original valid+test; all families selected independently on mean RMSE normalized by frozen error across delays 0,5,20 and phases 0,2 at fixed every-five requests. Select one configuration per dataset, never by unseen performance.",
+  "evaluation": {
+    "splits": [
+      "unseen"
+    ],
+    "delays": [
+      0,
+      5,
+      20
+    ],
+    "request_period": 5,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "compare": [
+      "frozen",
+      "original_grape",
+      "dev_tuned_global_ema",
+      "dev_tuned_rls",
+      "timestamped_kalman"
+    ],
+    "metrics": [
+      "RMSE",
+      "P90 absolute error",
+      "number requested",
+      "number arrived"
+    ],
+    "primary": "mean relative RMSE improvement over original GRAPE for delays 5 and 20 across both datasets and all phases >=10%, no dataset-delay mean regression >2%, P90 regression <=5%",
+    "simple_baseline_gate": "mean improvement vs strongest dev-selected EMA/RLS family >=5%, with both datasets non-worse at delay5 and20",
+    "uncertainty": "5000 paired moving-block bootstrap, length50, shared sampled time blocks across phases; no independent-seed claims",
+    "causality": "Labels unavailable until requested and timestamp+delay reached. Own prediction always precedes own label. All methods have identical query schedule. No future covariates supplied to models.",
+    "limits": "Sample delay is an imposed stress test, not measured manufacturing wall time; no manufacturing cost/safety/novelty claim."
+  }
+}

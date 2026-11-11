@@ -1,0 +1,45 @@
+{
+  "created_utc": "2026-11-11T13:06:30.117347+00:00",
+  "name": "Delayed-loss weighting of frozen-development GRAPE, timestamped Kalman and bounded regime experts",
+  "status": "Exploratory follow-up on previously inspected public unseen splits; not a fresh blind test",
+  "fit": "Original train only; retain exported feature order and base model",
+  "selection": "Same development scenarios and original-dev guard <=1.02 as v6. Expert configurations frozen from their respective development runs. Initial weights[.6,.2,.2], squared error divided by train residual variance clipped to25. Tune temperature [.25,1,4,16], fixed-share [0,.001,.01] only on development. Weight updates use predictions saved at original sample time and labels only after arrival.",
+  "evaluation": {
+    "splits": [
+      "unseen"
+    ],
+    "delays": [
+      0,
+      5,
+      20
+    ],
+    "request_period": 5,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "compare": [
+      "original_grape",
+      "v4_timestamped",
+      "v6_bayesian_regime",
+      "delayed_ensemble"
+    ],
+    "metrics": [
+      "RMSE",
+      "P90 absolute error",
+      "number requested",
+      "number arrived"
+    ],
+    "primary": "mean relative RMSE improvement over original GRAPE for delays 5 and 20 across both datasets and all phases >=10%, no dataset-delay mean regression >2%, P90 regression <=5%",
+    "simple_baseline_gate": "Compare all v4-v6 strong baselines, not just weak baseline; no superiority claim unless supported",
+    "uncertainty": "5000 paired moving-block bootstrap, length50, shared sampled time blocks across phases; no independent-seed claims",
+    "causality": "Labels unavailable until requested and timestamp+delay reached. Own prediction always precedes own label. All methods have identical query schedule. No future covariates supplied to models.",
+    "limits": "Sample delay is an imposed stress test, not measured manufacturing wall time; no manufacturing cost/safety/novelty claim."
+  },
+  "prior_evidence": "v4-v6 preserved. V6 improves dataset1 but regresses dataset2. Exploratory fourth revision. No new blind holdout available.",
+  "source": "Adams & MacKay, Bayesian Online Changepoint Detection, arXiv:0710.3742; Gaussian known-noise conjugate implementation, not a claimed new algorithm",
+  "approximation": "At most32 Gaussian components; moment-match adjacent components minimizing probability-weighted KL loss. Inspired by Bagel arXiv2611.03230, not a full reproduction. Fixed before development."
+}

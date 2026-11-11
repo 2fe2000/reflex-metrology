@@ -1,0 +1,340 @@
+{
+  "status": "Exploratory; repeatedly inspected evaluation data; conditional intervals do not correct model selection bias.",
+  "uncertainty": {
+    "method": "paired circular moving-block bootstrap; phases share sampled time indices",
+    "block": 50,
+    "replicates": 5000,
+    "seed": 20261111
+  },
+  "primary_gate": {
+    "mean_rmse_improvement_pct": 1.0347317738522737,
+    "target_pct": 10,
+    "passed": false
+  },
+  "comparisons": [
+    {
+      "dataset": 1,
+      "delay": 0,
+      "method": "delayed_ensemble",
+      "rmse_baseline": 0.2697500365088455,
+      "rmse_candidate": 0.25949255222644757,
+      "rmse_improvement_pct": 3.8025886539820974,
+      "rmse_ci95": [
+        -1.3104667407982329,
+        13.442637093791486
+      ],
+      "p90_baseline": 0.3674435801610479,
+      "p90_candidate": 0.33784001667616537,
+      "p90_improvement_pct": 8.056628305196545,
+      "p90_ci95": [
+        1.0608434676815026,
+        13.476618405057867
+      ],
+      "n": 542,
+      "queries_by_phase": [
+        109,
+        109,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "dataset": 1,
+      "delay": 0,
+      "method": "bayesian_regime",
+      "rmse_baseline": 0.2697500365088455,
+      "rmse_candidate": 0.23884119671768317,
+      "rmse_improvement_pct": 11.458326453330725,
+      "rmse_ci95": [
+        4.909602679285421,
+        15.52360030136562
+      ],
+      "p90_baseline": 0.3674435801610479,
+      "p90_candidate": 0.3245150998012797,
+      "p90_improvement_pct": 11.68301276102115,
+      "p90_ci95": [
+        3.09381866475914,
+        20.816393707112923
+      ],
+      "n": 542,
+      "queries_by_phase": [
+        109,
+        109,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "delayed_ensemble",
+      "rmse_baseline": 0.32573033257551837,
+      "rmse_candidate": 0.3142179409818699,
+      "rmse_improvement_pct": 3.534332066228252,
+      "rmse_ci95": [
+        -0.5551351708306024,
+        15.740267741574797
+      ],
+      "p90_baseline": 0.3957514039122565,
+      "p90_candidate": 0.34805827210635815,
+      "p90_improvement_pct": 12.051285563214975,
+      "p90_ci95": [
+        1.7796452007532877,
+        18.796589094719614
+      ],
+      "n": 542,
+      "queries_by_phase": [
+        109,
+        109,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "dataset": 1,
+      "delay": 5,
+      "method": "bayesian_regime",
+      "rmse_baseline": 0.32573033257551837,
+      "rmse_candidate": 0.29687129924567035,
+      "rmse_improvement_pct": 8.859793038512077,
+      "rmse_ci95": [
+        4.415740264610308,
+        17.640568657624556
+      ],
+      "p90_baseline": 0.3957514039122565,
+      "p90_candidate": 0.33782538609650237,
+      "p90_improvement_pct": 14.636970897163792,
+      "p90_ci95": [
+        4.32448854387745,
+        27.84912230930161
+      ],
+      "n": 542,
+      "queries_by_phase": [
+        109,
+        109,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "delayed_ensemble",
+      "rmse_baseline": 0.47120895777041555,
+      "rmse_candidate": 0.4717909395192522,
+      "rmse_improvement_pct": -0.12350820994371237,
+      "rmse_ci95": [
+        -2.477043714864193,
+        12.870462372544198
+      ],
+      "p90_baseline": 0.43393589385683534,
+      "p90_candidate": 0.4009216489025853,
+      "p90_improvement_pct": 7.60809267489223,
+      "p90_ci95": [
+        -22.720478979282838,
+        13.422831972093443
+      ],
+      "n": 542,
+      "queries_by_phase": [
+        109,
+        109,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "dataset": 1,
+      "delay": 20,
+      "method": "bayesian_regime",
+      "rmse_baseline": 0.47120895777041555,
+      "rmse_candidate": 0.44977880012995497,
+      "rmse_improvement_pct": 4.547909645406589,
+      "rmse_ci95": [
+        1.3056206967415496,
+        15.547695355293405
+      ],
+      "p90_baseline": 0.43393589385683534,
+      "p90_candidate": 0.36951266675174166,
+      "p90_improvement_pct": 14.84625448531074,
+      "p90_ci95": [
+        0.12506057080011734,
+        43.885163312579195
+      ],
+      "n": 542,
+      "queries_by_phase": [
+        109,
+        109,
+        108,
+        108,
+        108
+      ]
+    },
+    {
+      "dataset": 2,
+      "delay": 0,
+      "method": "delayed_ensemble",
+      "rmse_baseline": 0.831505275387878,
+      "rmse_candidate": 0.8287640050275182,
+      "rmse_improvement_pct": 0.329675642656746,
+      "rmse_ci95": [
+        -0.035474993161624946,
+        0.6851360604331973
+      ],
+      "p90_baseline": 1.3334726760498925,
+      "p90_candidate": 1.331110815797113,
+      "p90_improvement_pct": 0.17712100856659418,
+      "p90_ci95": [
+        -0.4870041113232454,
+        0.9476395491211769
+      ],
+      "n": 3317,
+      "queries_by_phase": [
+        664,
+        664,
+        663,
+        663,
+        663
+      ]
+    },
+    {
+      "dataset": 2,
+      "delay": 0,
+      "method": "bayesian_regime",
+      "rmse_baseline": 0.831505275387878,
+      "rmse_candidate": 0.8589128195983756,
+      "rmse_improvement_pct": -3.2961359382491784,
+      "rmse_ci95": [
+        -5.462111926141921,
+        -1.5294557394813246
+      ],
+      "p90_baseline": 1.3334726760498925,
+      "p90_candidate": 1.3657772586833734,
+      "p90_improvement_pct": -2.4225905197529762,
+      "p90_ci95": [
+        -3.87125137255922,
+        -0.7980407638019601
+      ],
+      "n": 3317,
+      "queries_by_phase": [
+        664,
+        664,
+        663,
+        663,
+        663
+      ]
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "delayed_ensemble",
+      "rmse_baseline": 0.8389013997191135,
+      "rmse_candidate": 0.8344984014298473,
+      "rmse_improvement_pct": 0.5248528957920939,
+      "rmse_ci95": [
+        0.13176393158258276,
+        0.9112752740826459
+      ],
+      "p90_baseline": 1.3485709542066284,
+      "p90_candidate": 1.3411574230572014,
+      "p90_improvement_pct": 0.5497323760608852,
+      "p90_ci95": [
+        -0.26006868732167177,
+        1.3595554524230855
+      ],
+      "n": 3317,
+      "queries_by_phase": [
+        664,
+        664,
+        663,
+        663,
+        663
+      ]
+    },
+    {
+      "dataset": 2,
+      "delay": 5,
+      "method": "bayesian_regime",
+      "rmse_baseline": 0.8389013997191135,
+      "rmse_candidate": 0.8667735010350347,
+      "rmse_improvement_pct": -3.3224525939822724,
+      "rmse_ci95": [
+        -4.96177890582624,
+        -1.7522021424789853
+      ],
+      "p90_baseline": 1.3485709542066284,
+      "p90_candidate": 1.3804728079760178,
+      "p90_improvement_pct": -2.365604395517873,
+      "p90_ci95": [
+        -3.5290645422238627,
+        -0.7556233992086253
+      ],
+      "n": 3317,
+      "queries_by_phase": [
+        664,
+        664,
+        663,
+        663,
+        663
+      ]
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "delayed_ensemble",
+      "rmse_baseline": 0.8460172832341714,
+      "rmse_candidate": 0.8442977502013459,
+      "rmse_improvement_pct": 0.20325034333246172,
+      "rmse_ci95": [
+        -0.21626526475860827,
+        0.620215672475192
+      ],
+      "p90_baseline": 1.3563389575851281,
+      "p90_candidate": 1.3553975142365242,
+      "p90_improvement_pct": 0.06941062507561657,
+      "p90_ci95": [
+        -0.6664650224198759,
+        0.8831173743825386
+      ],
+      "n": 3317,
+      "queries_by_phase": [
+        664,
+        664,
+        663,
+        663,
+        663
+      ]
+    },
+    {
+      "dataset": 2,
+      "delay": 20,
+      "method": "bayesian_regime",
+      "rmse_baseline": 0.8460172832341714,
+      "rmse_candidate": 0.8768455259269026,
+      "rmse_improvement_pct": -3.643925875235121,
+      "rmse_ci95": [
+        -5.797283244506107,
+        -1.7818629150947403
+      ],
+      "p90_baseline": 1.3563389575851281,
+      "p90_candidate": 1.38698283343975,
+      "p90_improvement_pct": -2.2593080942820754,
+      "p90_ci95": [
+        -3.44219993325351,
+        -0.8335968643154195
+      ],
+      "n": 3317,
+      "queries_by_phase": [
+        664,
+        664,
+        663,
+        663,
+        663
+      ]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "name": "opening",
+    "start": 0,
+    "duration": 18,
+    "text": "Semiconductor measurements often arrive after the next samples have already run. REFLEX keeps a small local model adapting while those results are in flight. This is a research prototype built on public data."
+  },
+  {
+    "name": "live",
+    "start": 18,
+    "duration": 24,
+    "text": "This is real local inference, accelerated for the video. We request every fifth sample and delay each result by five samples. Both models receive the same measurements at the same time. A delayed result retains its original timestamp. No future labels enter the model."
+  },
+  {
+    "name": "model",
+    "start": 42,
+    "duration": 12,
+    "text": "Three experts handle ordinary behavior, slow drift, and regime changes. Their weights learn only from errors whose measurements have arrived. Regime memory stays bounded."
+  },
+  {
+    "name": "table",
+    "start": 54,
+    "duration": 12,
+    "text": "We tested two datasets, three delays, and five sampling offsets. The complete comparison reports all four delayed conditions, including the regression."
+  },
+  {
+    "name": "result",
+    "start": 66,
+    "duration": 8,
+    "text": "On dataset one with a five sample delay, the ensemble lowered P ninety error by twelve percent at the same measurement budget."
+  },
+  {
+    "name": "limits",
+    "start": 74,
+    "duration": 8,
+    "text": "Average root mean square error improved just one percent. Our ten percent target was not met. These are exploratory results."
+  },
+  {
+    "name": "close",
+    "start": 82,
+    "duration": 8,
+    "text": "We are seeking a semiconductor process partner to validate on a fresh stream, with real metrology timestamps. REFLEX. Adapt while measurements are in flight."
+  }
+]

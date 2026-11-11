@@ -1,0 +1,128 @@
+method,candidate,config,score,original_ratio
+ema,0,"{""rate"": 0.02}",1.5059136033217042,0.9040774054875472
+ema,1,"{""rate"": 0.05}",1.3634204098390763,0.9133460544380257
+ema,2,"{""rate"": 0.1}",1.2104188097991728,0.9259528993695834
+ema,3,"{""rate"": 0.2}",1.0600185370680135,0.9449542743630486
+ema,4,"{""rate"": 0.4}",0.9677913631269195,0.9922311913638736
+ema,5,"{""rate"": 0.7}",0.9685286833489734,1.0992181709423101
+ema,6,"{""rate"": 1.0}",1.041085522562851,1.2680885577855223
+reset_ema,0,"{""rate"": 0.02, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0464386771403904,1.2665500563203422
+reset_ema,1,"{""rate"": 0.02, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0491205471044918,0.9040774054875472
+reset_ema,2,"{""rate"": 0.02, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0570937192880605,1.2191766955757763
+reset_ema,3,"{""rate"": 0.02, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0770264800224232,0.9040774054875472
+reset_ema,4,"{""rate"": 0.02, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0685665832009008,1.0249235928087728
+reset_ema,5,"{""rate"": 0.02, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1352558825961676,0.9040774054875472
+reset_ema,6,"{""rate"": 0.02, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.1156084536061976,0.9040774054875472
+reset_ema,7,"{""rate"": 0.02, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.2244607821581974,0.9040774054875472
+reset_ema,8,"{""rate"": 0.1, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.022485350115601,1.2401952970253296
+reset_ema,9,"{""rate"": 0.1, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0136926598607479,0.9259528993695834
+reset_ema,10,"{""rate"": 0.1, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9997418567221663,1.0446250145042697
+reset_ema,11,"{""rate"": 0.1, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0300509391324781,0.9259528993695834
+reset_ema,12,"{""rate"": 0.1, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0448116534293472,1.0446250145042697
+reset_ema,13,"{""rate"": 0.1, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0642408776074108,0.9259528993695834
+reset_ema,14,"{""rate"": 0.1, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0364570262388981,0.9259528993695834
+reset_ema,15,"{""rate"": 0.1, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1116092629885828,0.9259528993695834
+reset_ema,16,"{""rate"": 0.4, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0150280640511897,1.2339286912523244
+reset_ema,17,"{""rate"": 0.4, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9550243126620297,0.9922311913638736
+reset_ema,18,"{""rate"": 0.4, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9752515677860973,1.083940320315316
+reset_ema,19,"{""rate"": 0.4, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9555959326812854,0.9922311913638736
+reset_ema,20,"{""rate"": 0.4, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9786254504196567,1.083940320315316
+reset_ema,21,"{""rate"": 0.4, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9559423912225471,0.9922311913638736
+reset_ema,22,"{""rate"": 0.4, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9423585844782473,0.9922311913638736
+reset_ema,23,"{""rate"": 0.4, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9677913631269195,0.9922311913638736
+adaptive_timestamped,0,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0241084281240767,1.2507127845657813
+adaptive_timestamped,1,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0339828979053147,0.9535136318328229
+adaptive_timestamped,2,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0198646589332596,1.0696916977951476
+adaptive_timestamped,3,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0854734448780743,0.9535136318328229
+adaptive_timestamped,4,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.051378096059541,1.0696916977951476
+adaptive_timestamped,5,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0860073520406919,0.9535136318328229
+adaptive_timestamped,6,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0477195965395338,0.9535136318328229
+adaptive_timestamped,7,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1502843374778884,0.9535136318328229
+adaptive_timestamped,8,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.02111441635846,1.2434793030908198
+adaptive_timestamped,9,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0093050804174508,0.958735129393636
+adaptive_timestamped,10,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0198970617792047,1.0752424420527675
+adaptive_timestamped,11,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.02401517452636,0.958735129393636
+adaptive_timestamped,12,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0420592677252667,1.0752424420527675
+adaptive_timestamped,13,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0643829179349156,0.958735129393636
+adaptive_timestamped,14,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0390046346410005,0.958735129393636
+adaptive_timestamped,15,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1170447144625935,0.958735129393636
+adaptive_timestamped,16,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0227280853319984,1.2449602968500288
+adaptive_timestamped,17,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0235953392157464,0.9527994339112791
+adaptive_timestamped,18,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0152980839774524,1.0683936692861065
+adaptive_timestamped,19,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0683654359192003,0.9527994339112791
+adaptive_timestamped,20,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.050449749191617,1.0683936692861065
+adaptive_timestamped,21,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.074557139076933,0.9527994339112791
+adaptive_timestamped,22,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0468522357424652,0.9527994339112791
+adaptive_timestamped,23,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1320045339849552,0.9527994339112791
+adaptive_timestamped,24,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0225594863815612,1.241112912739218
+adaptive_timestamped,25,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0003622054960084,0.9583720067766002
+adaptive_timestamped,26,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0016043364600535,1.0722736316073256
+adaptive_timestamped,27,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0078751715275307,0.9583720067766002
+adaptive_timestamped,28,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0285931038955418,1.0722736316073256
+adaptive_timestamped,29,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0287287654044475,0.9583720067766002
+adaptive_timestamped,30,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0041856841724845,0.9583720067766002
+adaptive_timestamped,31,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0706933595070542,0.9583720067766002
+adaptive_timestamped,32,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0201853325394894,1.2299907617438373
+adaptive_timestamped,33,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9948435428931806,0.9615067043605243
+adaptive_timestamped,34,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9929273790757389,1.0708728299473806
+adaptive_timestamped,35,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0044338001329973,0.9615067043605243
+adaptive_timestamped,36,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0157773876181704,1.0708728299473806
+adaptive_timestamped,37,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0044338001329973,0.9615067043605243
+adaptive_timestamped,38,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.985432020834551,0.9615067043605243
+adaptive_timestamped,39,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0501535807418902,0.9615067043605243
+adaptive_timestamped,40,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0195152408385981,1.2353968097162347
+adaptive_timestamped,41,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9569414903203718,0.9960213426315471
+adaptive_timestamped,42,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9798569880986671,1.0894467565503836
+adaptive_timestamped,43,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9602205613229255,0.9960213426315471
+adaptive_timestamped,44,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9783745837544469,1.0894467565503836
+adaptive_timestamped,45,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9602205613229255,0.9960213426315471
+adaptive_timestamped,46,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9439928375098117,0.9960213426315471
+adaptive_timestamped,47,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9722944255625414,0.9960213426315471
+adaptive_timestamped,48,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0187952752597773,1.2143316084029534
+adaptive_timestamped,49,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.044996293083156,0.9657554903975311
+adaptive_timestamped,50,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9915647593768628,1.0564218925583313
+adaptive_timestamped,51,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0930438660656212,0.9657554903975311
+adaptive_timestamped,52,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.047250110798679,1.0564218925583313
+adaptive_timestamped,53,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1059667119910153,0.9657554903975311
+adaptive_timestamped,54,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0454917585535408,0.9657554903975311
+adaptive_timestamped,55,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1663099942454282,0.9657554903975311
+adaptive_timestamped,56,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0101684629800896,1.178266015616371
+adaptive_timestamped,57,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0303072154887007,0.970719811935407
+adaptive_timestamped,58,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9911649654661648,1.061652058070625
+adaptive_timestamped,59,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0736092701162638,0.970719811935407
+adaptive_timestamped,60,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0450086447816322,1.061652058070625
+adaptive_timestamped,61,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.085172243289131,0.970719811935407
+adaptive_timestamped,62,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.04001136598264,0.970719811935407
+adaptive_timestamped,63,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1408746627027848,0.970719811935407
+adaptive_timestamped,64,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.011309818753867,1.1774471534784547
+adaptive_timestamped,65,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0361110172395789,0.9650545429250279
+adaptive_timestamped,66,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.989118282479151,1.0558702598522463
+adaptive_timestamped,67,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.082589180896692,0.9650545429250279
+adaptive_timestamped,68,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0525615841371103,1.0558702598522463
+adaptive_timestamped,69,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0950537445954482,0.9650545429250279
+adaptive_timestamped,70,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.047573909378333,0.9650545429250279
+adaptive_timestamped,71,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.1505379783205592,0.9650545429250279
+adaptive_timestamped,72,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0114800348472033,1.189014677790714
+adaptive_timestamped,73,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0312523922801617,0.9709268255067067
+adaptive_timestamped,74,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9913048084099982,1.0611949130969085
+adaptive_timestamped,75,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0281578387396166,0.9709268255067067
+adaptive_timestamped,76,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0254927618426064,1.0611949130969085
+adaptive_timestamped,77,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0484350722351592,0.9709268255067067
+adaptive_timestamped,78,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0098805182243225,0.9709268255067067
+adaptive_timestamped,79,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.09266417687353,0.9709268255067067
+adaptive_timestamped,80,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0094581512240073,1.1853883258376965
+adaptive_timestamped,81,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.012919844183798,0.9734242682146738
+adaptive_timestamped,82,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.985949659920735,1.0610287538516479
+adaptive_timestamped,83,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.022476270313851,0.9734242682146738
+adaptive_timestamped,84,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0050762554179076,1.0610287538516479
+adaptive_timestamped,85,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.022476270313851,0.9734242682146738
+adaptive_timestamped,86,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9929133148300024,0.9734242682146738
+adaptive_timestamped,87,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",1.0720748228249126,0.9734242682146738
+adaptive_timestamped,88,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",1.0025457197226706,1.1837458027138603
+adaptive_timestamped,89,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 2.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9706717079086001,1.0076344369891057
+adaptive_timestamped,90,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9761049217300724,1.081559351227177
+adaptive_timestamped,91,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 3.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9744772417079032,1.0076344369891057
+adaptive_timestamped,92,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9737716625944778,1.081559351227177
+adaptive_timestamped,93,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 4.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9744772417079032,1.0076344369891057
+adaptive_timestamped,94,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 1, ""noise_std"": 0.1351322596705434}",0.9553926597488747,1.0076344369891057
+adaptive_timestamped,95,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0, ""threshold"": 6.0, ""confirm"": 2, ""noise_std"": 0.1351322596705434}",0.9878750031577574,1.0076344369891057

@@ -1,0 +1,31 @@
+{
+  "chip": "Apple M5 Pro",
+  "numpy": "2.4.6",
+  "note": "Single recorded-stream pass, delay5 offset0; p95 step includes inference of candidate+baseline and any label arrival. Excludes raw-sensor feature extraction, instruments, network and UI. Warmup first200 steps excluded.",
+  "models": {
+    "1": {
+      "n": 542,
+      "rmse": 0.3104954045684184,
+      "p90": 0.342288628120695,
+      "queries": 109,
+      "arrived": 108,
+      "step_ms_p50": 0.014667000868939795,
+      "step_ms_p95": 0.0677437493322941,
+      "full_replay_s": 0.017425374999220367,
+      "artifact_bytes": 4450,
+      "posterior_hypotheses": 32
+    },
+    "2": {
+      "n": 3317,
+      "rmse": 0.8326999892853123,
+      "p90": 1.3613048756019375,
+      "queries": 664,
+      "arrived": 663,
+      "step_ms_p50": 0.01770899871189613,
+      "step_ms_p95": 0.08350819953193421,
+      "full_replay_s": 0.103914999999688,
+      "artifact_bytes": 34361,
+      "posterior_hypotheses": 32
+    }
+  }
+}

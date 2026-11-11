@@ -1,0 +1,113 @@
+{
+  "dataset": 1,
+  "spec": {
+    "indices": [
+      26,
+      44,
+      46,
+      48,
+      41,
+      36,
+      35,
+      17,
+      31,
+      40,
+      37,
+      49,
+      3,
+      4,
+      47,
+      45,
+      43,
+      24,
+      0,
+      27,
+      38,
+      20,
+      42,
+      1,
+      28,
+      22,
+      39,
+      29,
+      2,
+      15,
+      5,
+      7,
+      8,
+      9,
+      23,
+      6,
+      11,
+      13,
+      19,
+      32,
+      14,
+      12,
+      10,
+      25,
+      16,
+      21,
+      34,
+      33,
+      18,
+      30
+    ],
+    "contexts": [
+      "id_1398b376fdcc_id_6b86b273ff34",
+      "id_1398b376fdcc_id_d4735e3a265e",
+      "id_1398b376fdcc_id_e7f6c011776e",
+      "id_724f7bdf7e74_id_6b86b273ff34",
+      "id_724f7bdf7e74_id_d4735e3a265e",
+      "id_724f7bdf7e74_id_e7f6c011776e",
+      "id_724f7bdf7e74_id_ef2d127de37b",
+      "id_c8361f9b468e_id_6b86b273ff34",
+      "id_c8361f9b468e_id_d4735e3a265e",
+      "id_c8361f9b468e_id_e7f6c011776e",
+      "id_c8361f9b468e_id_ef2d127de37b",
+      "id_ea644b359f0b_id_6b86b273ff34",
+      "id_ea644b359f0b_id_d4735e3a265e",
+      "id_ea644b359f0b_id_e7f6c011776e",
+      "id_ea644b359f0b_id_ef2d127de37b"
+    ]
+  },
+  "selected": {
+    "ema": {
+      "config": {
+        "rate": 0.4
+      },
+      "score": 0.9677913631269195,
+      "original_ratio": 0.9922311913638736,
+      "ordinary_guard_pass": true
+    },
+    "reset_ema": {
+      "config": {
+        "rate": 0.4,
+        "threshold": 6.0,
+        "confirm": 1,
+        "noise_std": 0.1351322596705434
+      },
+      "score": 0.9423585844782473,
+      "original_ratio": 0.9922311913638736,
+      "ordinary_guard_pass": true
+    },
+    "adaptive_timestamped": {
+      "config": {
+        "dim": 0,
+        "context": false,
+        "q": 0.01,
+        "trend": true,
+        "prior": 1.0,
+        "threshold": 6.0,
+        "confirm": 1,
+        "noise_std": 0.1351322596705434
+      },
+      "score": 0.9439928375098117,
+      "original_ratio": 0.9960213426315471,
+      "ordinary_guard_pass": true
+    }
+  },
+  "protocol_sha256": "af16dd9bcdfe0a10d5765587614f8239497e2c19a726222cb75973b8cc1d5152",
+  "locked_at": 1794402131.63336,
+  "selection": "Only original valid+test plus predefined synthetic shifts; no unseen loaded during development"
+}

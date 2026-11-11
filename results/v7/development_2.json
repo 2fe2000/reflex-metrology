@@ -1,0 +1,99 @@
+[
+  {
+    "config": {
+      "temperature": 0.25,
+      "share": 0.0
+    },
+    "score": 0.9446604168881272,
+    "original_ratio": 1.0044401475378981
+  },
+  {
+    "config": {
+      "temperature": 0.25,
+      "share": 0.001
+    },
+    "score": 0.9555796339936963,
+    "original_ratio": 1.0057544819923816
+  },
+  {
+    "config": {
+      "temperature": 0.25,
+      "share": 0.01
+    },
+    "score": 0.9488774665295825,
+    "original_ratio": 1.0044899800059297
+  },
+  {
+    "config": {
+      "temperature": 1.0,
+      "share": 0.0
+    },
+    "score": 0.9310830104668447,
+    "original_ratio": 1.0011352311339934
+  },
+  {
+    "config": {
+      "temperature": 1.0,
+      "share": 0.001
+    },
+    "score": 0.9321190193379341,
+    "original_ratio": 1.0010577235316107
+  },
+  {
+    "config": {
+      "temperature": 1.0,
+      "share": 0.01
+    },
+    "score": 0.9333193406572475,
+    "original_ratio": 1.000917244947393
+  },
+  {
+    "config": {
+      "temperature": 4.0,
+      "share": 0.0
+    },
+    "score": 0.9242578003685858,
+    "original_ratio": 0.9982517721898895
+  },
+  {
+    "config": {
+      "temperature": 4.0,
+      "share": 0.001
+    },
+    "score": 0.9238720330138636,
+    "original_ratio": 0.9981800066511666
+  },
+  {
+    "config": {
+      "temperature": 4.0,
+      "share": 0.01
+    },
+    "score": 0.9231270097972034,
+    "original_ratio": 0.9980773641542894,
+    "ordinary_guard_pass": true
+  },
+  {
+    "config": {
+      "temperature": 16.0,
+      "share": 0.0
+    },
+    "score": 0.9304405957929746,
+    "original_ratio": 0.9978838183110331
+  },
+  {
+    "config": {
+      "temperature": 16.0,
+      "share": 0.001
+    },
+    "score": 0.9299674341673747,
+    "original_ratio": 0.9978341536055826
+  },
+  {
+    "config": {
+      "temperature": 16.0,
+      "share": 0.01
+    },
+    "score": 0.9286051865320714,
+    "original_ratio": 0.9978494630313646
+  }
+]

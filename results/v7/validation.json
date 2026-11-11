@@ -1,0 +1,23 @@
+{
+  "checked_utc": "2026-11-11T13:17:54.829225+00:00",
+  "unit_test_command": "python3 -m unittest test_runtime test_delay_model",
+  "tests_passed": 10,
+  "portable_equivalence_cases": 30,
+  "runtime_dependencies": "NumPy; verified pandas, torch, sklearn absent from imported modules",
+  "browser_checks": {
+    "errors": [],
+    "mobile_overflow": false,
+    "dataset1_delay5": {
+      "index": 542,
+      "queries": 109,
+      "arrived": 108,
+      "rmse": 0.3104954045684184,
+      "baseline_rmse": 0.3147729188161532,
+      "p90": 0.342288628120695,
+      "baseline_p90": 0.38161783168540064
+    }
+  },
+  "presentation": "8 slides independently inspected; source label corrected and slide8 rechecked",
+  "video": "90s metadata and20 timeline frames inspected; mean scope corrected to4 delayed conditions; final encode rechecked separately",
+  "limits": "No full factory deployment, fresh blind holdout, real metrology latency or novel algorithm verified."
+}

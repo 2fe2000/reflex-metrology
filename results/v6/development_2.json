@@ -1,0 +1,183 @@
+[
+  {
+    "config": {
+      "hazard": 0.002,
+      "noise_multiplier": 1.0,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9241276581318238,
+    "original_ratio": 1.0211790083565642
+  },
+  {
+    "config": {
+      "hazard": 0.002,
+      "noise_multiplier": 1.0,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.931390405026933,
+    "original_ratio": 1.0285991077903538
+  },
+  {
+    "config": {
+      "hazard": 0.002,
+      "noise_multiplier": 1.5,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9630608724715897,
+    "original_ratio": 1.0498985246207173
+  },
+  {
+    "config": {
+      "hazard": 0.002,
+      "noise_multiplier": 1.5,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9749695774828113,
+    "original_ratio": 1.0641199646570652
+  },
+  {
+    "config": {
+      "hazard": 0.002,
+      "noise_multiplier": 2.0,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 1.008876557020392,
+    "original_ratio": 1.0716795657560365
+  },
+  {
+    "config": {
+      "hazard": 0.002,
+      "noise_multiplier": 2.0,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 1.0204925773338431,
+    "original_ratio": 1.086841243222041
+  },
+  {
+    "config": {
+      "hazard": 0.01,
+      "noise_multiplier": 1.0,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9152595978915017,
+    "original_ratio": 1.0183762137811518
+  },
+  {
+    "config": {
+      "hazard": 0.01,
+      "noise_multiplier": 1.0,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9206594395195216,
+    "original_ratio": 1.0203233233369162
+  },
+  {
+    "config": {
+      "hazard": 0.01,
+      "noise_multiplier": 1.5,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9408067136733124,
+    "original_ratio": 1.030072734811885
+  },
+  {
+    "config": {
+      "hazard": 0.01,
+      "noise_multiplier": 1.5,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9548160170753759,
+    "original_ratio": 1.046818290499113
+  },
+  {
+    "config": {
+      "hazard": 0.01,
+      "noise_multiplier": 2.0,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.976463342084578,
+    "original_ratio": 1.0445192541710226
+  },
+  {
+    "config": {
+      "hazard": 0.01,
+      "noise_multiplier": 2.0,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9949098541787871,
+    "original_ratio": 1.0675391560515868
+  },
+  {
+    "config": {
+      "hazard": 0.05,
+      "noise_multiplier": 1.0,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9120069796123393,
+    "original_ratio": 1.027491177999879
+  },
+  {
+    "config": {
+      "hazard": 0.05,
+      "noise_multiplier": 1.0,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9122146668418853,
+    "original_ratio": 1.019401768491525,
+    "ordinary_guard_pass": true
+  },
+  {
+    "config": {
+      "hazard": 0.05,
+      "noise_multiplier": 1.5,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9201776743523509,
+    "original_ratio": 1.016683688207029
+  },
+  {
+    "config": {
+      "hazard": 0.05,
+      "noise_multiplier": 1.5,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9317446837472231,
+    "original_ratio": 1.0264494205054868
+  },
+  {
+    "config": {
+      "hazard": 0.05,
+      "noise_multiplier": 2.0,
+      "prior_width": 4.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9373431051487238,
+    "original_ratio": 1.018572231994344
+  },
+  {
+    "config": {
+      "hazard": 0.05,
+      "noise_multiplier": 2.0,
+      "prior_width": 16.0,
+      "noise_std": 0.8348018000296239
+    },
+    "score": 0.9562864006018881,
+    "original_ratio": 1.038344901405777
+  }
+]

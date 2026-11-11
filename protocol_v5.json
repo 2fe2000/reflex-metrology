@@ -1,0 +1,43 @@
+{
+  "created_utc": "2026-11-11T13:02:09.636046+00:00",
+  "name": "Timestamped innovation-gated residual-state adaptation",
+  "status": "Exploratory follow-up on previously inspected public unseen splits; not a fresh blind test",
+  "fit": "Original train only; retain exported feature order and base model",
+  "selection": "Per-dataset development only, original valid+test plus four predefined synthetic label offsets: +8sigma step, -8sigma step at halfway, +4sigma middle-third pulse, 0-to-8sigma ramp; sigma from train residuals. Score mean RMSE ratio vs GRAPE across all five scenarios, delays 5/20, phases 0/2. Prefer configurations with original-dev mean ratio <=1.05. All candidate configurations recorded.",
+  "evaluation": {
+    "splits": [
+      "unseen"
+    ],
+    "delays": [
+      0,
+      5,
+      20
+    ],
+    "request_period": 5,
+    "phases": [
+      0,
+      1,
+      2,
+      3,
+      4
+    ],
+    "compare": [
+      "original_grape",
+      "stress_tuned_ema",
+      "stress_tuned_reset_ema",
+      "adaptive_timestamped"
+    ],
+    "metrics": [
+      "RMSE",
+      "P90 absolute error",
+      "number requested",
+      "number arrived"
+    ],
+    "primary": "mean relative RMSE improvement over original GRAPE for delays 5 and 20 across both datasets and all phases >=10%, no dataset-delay mean regression >2%, P90 regression <=5%",
+    "simple_baseline_gate": "mean RMSE improvement vs reset EMA >=5%, both datasets non-worse at delays5/20",
+    "uncertainty": "5000 paired moving-block bootstrap, length50, shared sampled time blocks across phases; no independent-seed claims",
+    "causality": "Labels unavailable until requested and timestamp+delay reached. Own prediction always precedes own label. All methods have identical query schedule. No future covariates supplied to models.",
+    "limits": "Sample delay is an imposed stress test, not measured manufacturing wall time; no manufacturing cost/safety/novelty claim."
+  },
+  "prior_evidence": "v4 evaluation failed on dataset1; preserved in results/v4; this is an exploratory second revision"
+}

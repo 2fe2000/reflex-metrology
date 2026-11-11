@@ -4,6 +4,7 @@ from pathlib import Path
 import json,threading,uuid,argparse
 import numpy as np
 from portable_runtime import LiveStream
+from delayed_runtime import DelayedStream
 ROOT=Path(__file__).resolve().parent
 sessions={};lock=threading.Lock()
 class Handler(BaseHTTPRequestHandler):
@@ -11,6 +12,8 @@ class Handler(BaseHTTPRequestHandler):
  def send_json(self,value,status=200):
   data=json.dumps(value,allow_nan=False).encode();self.send_response(status);self.send_header('Content-Type','application/json');self.send_header('Content-Length',str(len(data)));self.end_headers();self.wfile.write(data)
  def do_GET(self):
+  if self.path=='/api/delay/evidence':
+   return self.send_json(json.loads((ROOT/'results/v7/summary.json').read_text()))
   if self.path=='/api/evidence':
    return self.send_json(json.loads((ROOT/'results/evidence.json').read_text()))
   path=ROOT/'web'/('index.html' if self.path=='/' else self.path.split('?',1)[0].lstrip('/'))
@@ -22,6 +25,13 @@ class Handler(BaseHTTPRequestHandler):
    with lock:
     if self.path=='/api/reset':
      ds=int(body.get('dataset',1));policy=body.get('policy','burst')
+     if body.get('version')==7:
+      delay=int(body.get('delay',5));phase=int(body.get('phase',0))
+      if ds not in [1,2] or delay not in [0,5,20] or phase not in range(5):raise ValueError('invalid delayed choice')
+      a=json.loads((ROOT/f'models/reflex_delayed_{ds}.json').read_text());data=np.load(ROOT/f'models/replay_{ds}.npz',allow_pickle=False)
+      sid=str(uuid.uuid4());sessions[sid]=DelayedStream(a,data['X'],data['y'],data['keys'],delay,phase)
+      if len(sessions)>30:del sessions[next(iter(sessions))]
+      return self.send_json({'session':sid,'dataset':ds,**sessions[sid].advance(0)})
      if ds not in [1,2] or policy not in ['burst','uniform','all','frozen']:raise ValueError('invalid choice')
      a=json.loads((ROOT/f'models/reflex_{ds}.json').read_text());data=np.load(ROOT/f'models/replay_{ds}.npz',allow_pickle=False)
      sid=str(uuid.uuid4());sessions[sid]=LiveStream(a,data['X'],data['y'],data['keys'],policy)

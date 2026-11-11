@@ -1,0 +1,7 @@
+Session 2026-11-11T13:15:36.635295+00:00
+Strategy: preserve the original 90-second English narration/caption format, replace the evidence and live capture with the tested delayed-metrology implementation.
+Layout:18s illustrated opening;24s actual accelerated local replay;12s actual model state;12s complete comparison;24s result/limits/partner ask.
+Audio:original Samantha TTS, per-utterance duration timing,30ms fades,90s padded master.
+Captions:rendered LAST after all visuals.
+Claims:12.05% P90 reduction only Dataset1/delay5;1.03% overall delayed RMSE;10% target not met;exploratory data reuse.
+QA:inspect rendered output around cuts and confirm exact90seconds before delivery.

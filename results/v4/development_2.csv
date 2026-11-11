@@ -1,0 +1,84 @@
+method,candidate,config,score
+ema,0,"{""rate"": 0.02}",0.8514301042507856
+ema,1,"{""rate"": 0.05}",0.8394784009549022
+ema,2,"{""rate"": 0.1}",0.8460825751257288
+ema,3,"{""rate"": 0.2}",0.8656982046857036
+ema,4,"{""rate"": 0.4}",0.9099273073815618
+ema,5,"{""rate"": 0.7}",0.995750081730347
+ema,6,"{""rate"": 1.0}",1.1214920219736317
+rls,0,"{""dim"": 0, ""context"": false, ""forget"": 0.99, ""prior"": 0.1}",0.8387825210038566
+rls,1,"{""dim"": 0, ""context"": false, ""forget"": 0.99, ""prior"": 1.0}",0.8398114847620173
+rls,2,"{""dim"": 0, ""context"": false, ""forget"": 0.999, ""prior"": 0.1}",0.8463217983886309
+rls,3,"{""dim"": 0, ""context"": false, ""forget"": 0.999, ""prior"": 1.0}",0.8413758604369389
+rls,4,"{""dim"": 0, ""context"": false, ""forget"": 1.0, ""prior"": 0.1}",0.8509995629777142
+rls,5,"{""dim"": 0, ""context"": false, ""forget"": 1.0, ""prior"": 1.0}",0.8437986811823515
+rls,6,"{""dim"": 0, ""context"": true, ""forget"": 0.99, ""prior"": 0.1}",0.8568440027565952
+rls,7,"{""dim"": 0, ""context"": true, ""forget"": 0.99, ""prior"": 1.0}",0.8903431356282064
+rls,8,"{""dim"": 0, ""context"": true, ""forget"": 0.999, ""prior"": 0.1}",0.8411170017567023
+rls,9,"{""dim"": 0, ""context"": true, ""forget"": 0.999, ""prior"": 1.0}",0.8402073683038056
+rls,10,"{""dim"": 0, ""context"": true, ""forget"": 1.0, ""prior"": 0.1}",0.8473575027320708
+rls,11,"{""dim"": 0, ""context"": true, ""forget"": 1.0, ""prior"": 1.0}",0.8417657784076469
+rls,12,"{""dim"": 4, ""context"": false, ""forget"": 0.99, ""prior"": 0.1}",0.8669702733227987
+rls,13,"{""dim"": 4, ""context"": false, ""forget"": 0.99, ""prior"": 1.0}",0.8827890968564395
+rls,14,"{""dim"": 4, ""context"": false, ""forget"": 0.999, ""prior"": 0.1}",0.8561348962123644
+rls,15,"{""dim"": 4, ""context"": false, ""forget"": 0.999, ""prior"": 1.0}",0.8670589892841285
+rls,16,"{""dim"": 4, ""context"": false, ""forget"": 1.0, ""prior"": 0.1}",0.8600187275571539
+rls,17,"{""dim"": 4, ""context"": false, ""forget"": 1.0, ""prior"": 1.0}",0.8695212996344769
+rls,18,"{""dim"": 4, ""context"": true, ""forget"": 0.99, ""prior"": 0.1}",0.8874408868713558
+rls,19,"{""dim"": 4, ""context"": true, ""forget"": 0.99, ""prior"": 1.0}",0.9526744350444408
+rls,20,"{""dim"": 4, ""context"": true, ""forget"": 0.999, ""prior"": 0.1}",0.8511740536185992
+rls,21,"{""dim"": 4, ""context"": true, ""forget"": 0.999, ""prior"": 1.0}",0.8612739590547878
+rls,22,"{""dim"": 4, ""context"": true, ""forget"": 1.0, ""prior"": 0.1}",0.8565765842151146
+rls,23,"{""dim"": 4, ""context"": true, ""forget"": 1.0, ""prior"": 1.0}",0.8632677280175057
+rls,24,"{""dim"": 12, ""context"": false, ""forget"": 0.99, ""prior"": 0.1}",0.8897642127885259
+rls,25,"{""dim"": 12, ""context"": false, ""forget"": 0.99, ""prior"": 1.0}",0.9205310848474365
+rls,26,"{""dim"": 12, ""context"": false, ""forget"": 0.999, ""prior"": 0.1}",0.8509700039151377
+rls,27,"{""dim"": 12, ""context"": false, ""forget"": 0.999, ""prior"": 1.0}",0.8712796138644249
+rls,28,"{""dim"": 12, ""context"": false, ""forget"": 1.0, ""prior"": 0.1}",0.8547473546982135
+rls,29,"{""dim"": 12, ""context"": false, ""forget"": 1.0, ""prior"": 1.0}",0.8726436008163826
+rls,30,"{""dim"": 12, ""context"": true, ""forget"": 0.99, ""prior"": 0.1}",0.922388799680792
+rls,31,"{""dim"": 12, ""context"": true, ""forget"": 0.99, ""prior"": 1.0}",1.0155724764170748
+rls,32,"{""dim"": 12, ""context"": true, ""forget"": 0.999, ""prior"": 0.1}",0.8472948283314871
+rls,33,"{""dim"": 12, ""context"": true, ""forget"": 0.999, ""prior"": 1.0}",0.8689801749242649
+rls,34,"{""dim"": 12, ""context"": true, ""forget"": 1.0, ""prior"": 0.1}",0.8521521506325449
+rls,35,"{""dim"": 12, ""context"": true, ""forget"": 1.0, ""prior"": 1.0}",0.868905471446225
+timestamped,0,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.8384860270604908
+timestamped,1,"{""dim"": 0, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.8399373820259698
+timestamped,2,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.841715570201158
+timestamped,3,"{""dim"": 0, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.8566467262034787
+timestamped,4,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.8664851080456645
+timestamped,5,"{""dim"": 0, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.9091910955514205
+timestamped,6,"{""dim"": 0, ""context"": false, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.9353047137114375
+timestamped,7,"{""dim"": 0, ""context"": false, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",1.035052745104779
+timestamped,8,"{""dim"": 0, ""context"": false, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",1.0537031450333805
+timestamped,9,"{""dim"": 0, ""context"": false, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",1.2322959972078473
+timestamped,10,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.8340377633015414
+timestamped,11,"{""dim"": 0, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.8340683327970568
+timestamped,12,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.8354914717742171
+timestamped,13,"{""dim"": 0, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.8490538970749228
+timestamped,14,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.8583823424698535
+timestamped,15,"{""dim"": 0, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.8999856759591481
+timestamped,16,"{""dim"": 0, ""context"": true, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.9219060698523753
+timestamped,17,"{""dim"": 0, ""context"": true, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",1.0150531731764596
+timestamped,18,"{""dim"": 0, ""context"": true, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",1.0247026505933559
+timestamped,19,"{""dim"": 0, ""context"": true, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",1.1848792638693506
+timestamped,20,"{""dim"": 4, ""context"": false, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.864063326346268
+timestamped,21,"{""dim"": 4, ""context"": false, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.8657861118321774
+timestamped,22,"{""dim"": 4, ""context"": false, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.8667031875004273
+timestamped,23,"{""dim"": 4, ""context"": false, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.8800406349977404
+timestamped,24,"{""dim"": 4, ""context"": false, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.8879496017089942
+timestamped,25,"{""dim"": 4, ""context"": false, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.9281493720974644
+timestamped,26,"{""dim"": 4, ""context"": false, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.9547484933195124
+timestamped,27,"{""dim"": 4, ""context"": false, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",1.051130874745274
+timestamped,28,"{""dim"": 4, ""context"": false, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",1.0719730971146395
+timestamped,29,"{""dim"": 4, ""context"": false, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",1.2394323861007297
+timestamped,30,"{""dim"": 4, ""context"": true, ""q"": 0.0001, ""trend"": false, ""prior"": 1.0}",0.8556772095224586
+timestamped,31,"{""dim"": 4, ""context"": true, ""q"": 0.0001, ""trend"": true, ""prior"": 1.0}",0.8560178233820827
+timestamped,32,"{""dim"": 4, ""context"": true, ""q"": 0.001, ""trend"": false, ""prior"": 1.0}",0.8567844185263894
+timestamped,33,"{""dim"": 4, ""context"": true, ""q"": 0.001, ""trend"": true, ""prior"": 1.0}",0.8694067014124305
+timestamped,34,"{""dim"": 4, ""context"": true, ""q"": 0.01, ""trend"": false, ""prior"": 1.0}",0.8768915466138748
+timestamped,35,"{""dim"": 4, ""context"": true, ""q"": 0.01, ""trend"": true, ""prior"": 1.0}",0.9165773666111391
+timestamped,36,"{""dim"": 4, ""context"": true, ""q"": 0.1, ""trend"": false, ""prior"": 1.0}",0.9383658175030187
+timestamped,37,"{""dim"": 4, ""context"": true, ""q"": 0.1, ""trend"": true, ""prior"": 1.0}",1.0296214620981745
+timestamped,38,"{""dim"": 4, ""context"": true, ""q"": 1.0, ""trend"": false, ""prior"": 1.0}",1.0421182336165777
+timestamped,39,"{""dim"": 4, ""context"": true, ""q"": 1.0, ""trend"": true, ""prior"": 1.0}",1.1967354490073985
